@@ -1,14 +1,14 @@
-body{
+body {
     margin: 0px;
     font-family: 'Oswald', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 50px;
     color: #002E4F;
 }
 
-h2{
+h2 {
     font-family: 'Poiret One';
     font-size: 22px;
     color: white;
@@ -16,13 +16,47 @@ h2{
     opacity: 50%;
 }
 
-.row{
+.row {
     white-space: nowrap;
     height: 100vh;
     width: 100%;
-    font-size: 0; /* Set the font size of the parent to 0 */
+    font-size: 0;
+    /* Set the font size of the parent to 0 */
     vertical-align: top;
     overflow: hidden;
+}
+
+p {
+    font-family: 'Poiret One';
+    display: block;
+    /* Display labels as block elements to stack them vertically */
+    font-size: 15px;
+    font-weight: lighter;
+    opacity: 100%;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    /* Add spacing between labels and inputs */
+    text-align: center;
+}
+
+p a {
+    font-family: 'Poiret One';
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 100%;
+    text-decoration: none;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    /* Add spacing between labels and inputs */
+    text-align: start;
+}
+
+a:hover {
+    color: #002E4F;
+    font-weight: 900;
 }
 
 .signupDesign {
@@ -31,9 +65,11 @@ h2{
     height: 100%;
     background-image: url("../img/job2be_signup.png");
     background-repeat: no-repeat;
-    background-size: cover; /* Ensure the background image covers the entire element */
+    background-size: cover;
+    /* Ensure the background image covers the entire element */
     box-sizing: border-box;
-    vertical-align: top; /* Align the element at the top of the line */
+    vertical-align: top;
+    /* Align the element at the top of the line */
     background-position: center;
 }
 
@@ -43,11 +79,12 @@ h2{
     background-color: #7C93A3;
     display: inline-block;
     box-sizing: border-box;
-    vertical-align: top; /* Align the element at the top of the line */
+    vertical-align: top;
+    /* Align the element at the top of the line */
     align-items: center;
 }
 
-.inSignForm{
+.inSignForm {
     height: 100%;
     width: 100%;
     display: flex;
@@ -56,7 +93,7 @@ h2{
     align-items: center;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,23 +103,27 @@ form{
 
 /* Style for form labels */
 form label {
-    display: block; /* Display labels as block elements to stack them vertically */
-    font-size: 12px;
+    display: block;
+    /* Display labels as block elements to stack them vertically */
+    font-size: 13px;
     color: #002E4F;
     margin-top: 10px;
-    margin-bottom: 2px; /* Add spacing between labels and inputs */
+    margin-bottom: 2px;
+    /* Add spacing between labels and inputs */
     text-align: start;
 }
 
 /* Style for form inputs */
 form input[type="text"],
 form input[type="email"],
-form input[type="password"]{
+form input[type="password"] {
     width: 300px;
     height: 22px;
     padding: 10px;
-    margin-bottom: 2px; /* Add spacing between inputs */
-    border-radius: 5px; /* Rounded corners for inputs and button */
+    margin-bottom: 2px;
+    /* Add spacing between inputs */
+    border-radius: 5px;
+    /* Rounded corners for inputs and button */
     border: none;
 }
 
@@ -95,14 +136,16 @@ form input[type="password"] {
 
 /* Background and text color for the button */
 form button {
-    background-color: #1F4D6D;
+    background-color: #002E4F;
     color: white;
     cursor: pointer;
     width: auto;
     padding: 10px;
     margin-top: 20px;
-    margin-bottom: 15px; /* Add spacing between inputs */
-    border-radius: 20px; /* Rounded corners for inputs and button */
+    margin-bottom: 15px;
+    /* Add spacing between inputs */
+    border-radius: 20px;
+    /* Rounded corners for inputs and button */
     padding-left: 30px;
     padding-right: 30px;
     border: none;
@@ -113,14 +156,14 @@ form button {
 
 /* On hover, slightly lighten the button background color */
 form button:hover {
-    background-color: #335D85;
+    background-color: #002e4fde;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .signupDesign {
         display: none;
     }
-    
+
     .signupForm {
         display: block;
         width: auto;

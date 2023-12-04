@@ -37,6 +37,7 @@ if(isset($_SESSION["user_id"])){
         </style>
     </head>
     <body>
+        <?php include("includes/new_menu.php");?>
         <h1>Home</h1>
         <?php if (isset($user)):?>
             <p>Hello, <?= htmlspecialchars($user["user"])?></p>
@@ -81,6 +82,7 @@ if(isset($_SESSION["user_id"])){
             }
 
         </script>
+        <?php include("includes/new_footer.php");?>
     </body>
 
 </html>

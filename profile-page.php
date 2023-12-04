@@ -21,10 +21,11 @@ if(isset($_SESSION["user_id"])){
         <meta charset="UTF-8">
     </head>
     <body>
+        <?php include("includes/new_menu.php");?>
         <h1>Home</h1>
         <?php if (isset($user)):?>
             <p>Hello, <?= htmlspecialchars($user["user"])?></p>
-            <a href="logout.php">Log Out</a>           
+            <a href="assets/database/logout.php">Log Out</a>           
             <form method="post" action="assets/database/update_description.php">
                 <label for="description">Update Description:</label>
                 <input type="text" name="description" id="description">
@@ -81,7 +82,7 @@ if(isset($_SESSION["user_id"])){
             <p><a href="login.php">Log In</a> or <a href="signup.html">Sign Up</a>.</p>
         <?php endif; ?>
 
-
+        <?php include("includes/new_footer.php");?>
     </body>
 
 </html>

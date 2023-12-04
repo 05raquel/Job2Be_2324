@@ -67,8 +67,9 @@
                             <?php endif; ?>
                             <input type="password" name="password" id="password">
                         </div>
-                        <button>LOG IN</button>
+                        <button>LOGIN</button>
                     </form>
+                    <p>Ainda não tens conta? <a href="signup.html">SIGNUP</a></p>
                 </div>
             </div>
         </div>
