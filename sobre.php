@@ -13,8 +13,10 @@ if(isset($_SESSION["user_id"])){
 ?>
 <body>
     <?php include("includes/new_menu.php");?>
-    <div style="background-color: beige; height: 500px;">
 
-    </div>
+    <?php include("sobre_1.php");?>
+    <?php include("sobre_2.php");?>
+    <?php include("sobre_3.php");?>
+
     <?php include("includes/new_footer.php");?>
 </body>
