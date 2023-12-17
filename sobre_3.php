@@ -18,11 +18,12 @@
         display: grid;
         grid-template-columns: 23% 23% 23% 23%;
         justify-content: center;
-        gap: 2%;
+        gap: 1.5%;
 
         > div {
-            background: #3F165B url('../img/testemunhos/titulo.png') ;
-            background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/background_inicio_homepage.png);
+            /**background: #3F165B url('../img/testemunhos/titulo.png') ;
+            background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/background_inicio_homepage.png);*/
+            background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(./assets/img/job2be_signup.png);
             opacity: 90%;
             height: 250px;
             padding: 5px;
