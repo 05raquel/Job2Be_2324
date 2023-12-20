@@ -1,3 +1,44 @@
 <head>
     <link rel="stylesheet" href="assets/styles/style_geral.css">
+    <link rel="stylesheet" href="assets/styles/style_index.css">
 </head>
+
+<body>
+    <div class="fundo-roxo">
+        <h1 class="titulo-branco" style="text-align:right">ATIVIDADES</h1>
+        <div class="atividades">
+            <div> <a href="">
+                <div class="content"> 
+                    <h4>PALESTRAS</h4>
+                </div>
+            </a>
+            </div>
+            <div> <a href="">
+                <div class="content"> 
+                    <h4>WORKSHOPS</h2>
+                </div>
+            </a>
+            </div>
+            <div> <a href="">
+                <div class="content"> 
+                    <h4>PITCH</h4>
+                </div>
+            </a>
+            </div>
+            <div> <a href="">
+                <div class="content"> 
+                    <h4>FEIRA DE EMPRESAS</h4>
+                </div>
+            </a>
+            </div>
+            <div> <a href="">
+                <div class="content"> 
+                    <h4>ALUMNI SESSION</h4>
+                </div>
+            </a>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
