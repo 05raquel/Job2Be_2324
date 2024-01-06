@@ -3,13 +3,9 @@
 </head>
 <body>
     <?php include("includes/new_menu.php");?>
-    <div class="fundo-roxo">
-        <h1 class="titulo-branco">TITULO BRANCO</h1>
-        <p class="texto-branco">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus sapien vitae ligula accumsan interdum eu eget enim. Quisque interdum pretium aliquet. Fusce sit amet nisi eget odio condimentum ultrices. Nam nunc nisl, mattis ac massa a, elementum facilisis arcu. Integer viverra rutrum lorem, sit amet faucibus mi lobortis ac. Vestibulum sed eleifend risus, sed sollicitudin augue. In sit amet metus ipsum. Donec bibendum, elit quis mattis luctus, lectus felis convallis nulla, at imperdiet orci mi ac dui. Nam ullamcorper sagittis aliquet. Cras eu feugiat nulla, et convallis velit. Curabitur sit amet enim faucibus, tempor justo non, malesuada nisi. Suspendisse.</p>
-    </div>
     <div class="fundo-branco">
-        <h1 class="titulo-roxo">TITULO ROXO</h1>
-        <p class="texto-roxo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus sapien vitae ligula accumsan interdum eu eget enim. Quisque interdum pretium aliquet. Fusce sit amet nisi eget odio condimentum ultrices. Nam nunc nisl, mattis ac massa a, elementum facilisis arcu. Integer viverra rutrum lorem, sit amet faucibus mi lobortis ac. Vestibulum sed eleifend risus, sed sollicitudin augue. In sit amet metus ipsum. Donec bibendum, elit quis mattis luctus, lectus felis convallis nulla, at imperdiet orci mi ac dui. Nam ullamcorper sagittis aliquet. Cras eu feugiat nulla, et convallis velit. Curabitur sit amet enim faucibus, tempor justo non, malesuada nisi. Suspendisse.</p>
+        <h1 class="titulo-roxo">O que é a JOB2BE?</h1>
+        <p class="texto-roxo">A JOB2BE - Semana da Biomédica 2024 é um evento organizado pelo Núcleo de Estudantes de Engenharia Biomédica do Instituto Superior Técnico da Universidade de Lisboa (NEBM-IST) que visa estreitar a relação entre a comunidade académica, científica e o mundo empresarial, assim como divulgar o trabalho desenvolvido atualmente na área da Engenharia Biomédica.</p>
     </div>
     <?php include("includes/new_footer.php");?>
 </body>
