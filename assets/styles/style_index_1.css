@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+@import url("https://fonts.googleapis.com/css?family=League+Spartan:wght@300,300i,400,400i,600,600i,700,700i&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+
+.line{
+    background-color: #8E73B2;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 5em;
+
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 1em;
+}
+
+img{
+    width: 343px;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin: 1em;
+}
+
+.until{
+    font-size: 15px;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 01em;
+    align-items: center;
+    background-color: #8E73B2;
+}
+
+.until__component{
+    background: white;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+    padding: 0.4em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
+.until__numeric{
+    font-family:  'Oswald', sans-serif;
+    color: #3F165B;
+    font-size: 2.7em;
+    padding: 0.4em;
+    padding-bottom: 0.1em;
+    font-weight: 900;
+}
+
+.until__unit{
+    font-family:  'League Spartan', sans-serif;
+    color: #3F165B;
+    font-size: 1.1em;
+    padding-bottom: 0.7em;
+    font-weight: 100;
+}
