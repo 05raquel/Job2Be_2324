@@ -101,6 +101,10 @@ form {
     padding-bottom: 50px;
 }
 
+.button_log_in:hover{
+    background-color: #002e4fde;
+}
+
 /* Style for form labels */
 form label {
     display: block;
@@ -153,6 +157,7 @@ form button {
     font-weight: 700;
     text-align: center;
 }
+
 
 /* On hover, slightly lighten the button background color */
 form button:hover {
