@@ -5,6 +5,41 @@
     justify-content: center;
     gap: 1.5%;
 
+    .palestra{
+        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/palestra.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .workshop{
+        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/workshop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .pitch{
+        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/pitch.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .feira_e{
+        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/empresas.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .alumni{
+        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/alumni.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     > div {
         /**background: #3F165B url('../img/testemunhos/titulo.png') ;
         background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/background_inicio_homepage.png);*/
