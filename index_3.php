@@ -5,7 +5,7 @@
 
 <body>
     <div class="fundo-roxo">
-        <h1 class="titulo-branco" style="text-align:right">ATIVIDADES</h1>
+        <h1 class="titulo-branco" style="text-align:right; padding-right: inherit;">ATIVIDADES</h1>
         <div class="atividades">
             <div class="palestra"> <a href="">
                 <div class="content"> 
@@ -15,7 +15,7 @@
             </div>
             <div class="workshop"> <a href="">
                 <div class="content"> 
-                    <h4>WORKSHOPS</h2>
+                    <h4>WORKSHOPS</h4>
                 </div>
             </a>
             </div> 
