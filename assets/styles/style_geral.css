@@ -21,14 +21,16 @@
     color: #fff;
     font-family:  'Oswald', sans-serif;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 3rem;
+    letter-spacing: 2px;
 }
 
 .titulo-roxo{
     color: #3F165B;
     font-family:  'Oswald', sans-serif;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 3rem;
+    letter-spacing: 2px;
 }
 
 .texto-roxo{

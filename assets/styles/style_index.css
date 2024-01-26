@@ -1,40 +1,40 @@
-
 .atividades{
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
     justify-content: center;
     gap: 1.5%;
+    margin-bottom: 30px;
 
     .palestra{
-        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/palestra.png);
+        background-image: linear-gradient(to top, #3f165be0, #3f165be0), url(../img/index-3/palestra.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
     
     .workshop{
-        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/workshop.jpg);
+        background-image: linear-gradient(to top, #3f165be0, #3f165be0), url(../img/index-3/workshop.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
 
     .pitch{
-        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/pitch.jpg);
+        background-image: linear-gradient(to top, #3f165be0, #3f165be0), url(../img/index-3/pitch.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
 
     .feira_e{
-        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/empresas.jpg);
+        background-image: linear-gradient(to top, #3f165be0, #3f165be0), url(../img/index-3/empresas.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
 
     .alumni{
-        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/index-3/alumni.jpg);
+        background-image: linear-gradient(to top, #3f165be0, #3f165be0), url(../img/index-3/alumni.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -43,17 +43,18 @@
     > div {
         /**background: #3F165B url('../img/testemunhos/titulo.png') ;
         background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/background_inicio_homepage.png);*/
-        background-image: linear-gradient(to top, #3F165B, #0f2d4c00), url(../img/job2be_signup.png);
-        opacity: 90%;
-        height: 250px;
+        background-image: linear-gradient(to top, #3F165B, #3F165B), url(../img/job2be_signup.png);
+        opacity: 100%;
+        height: 350px;
         padding: 5px;
         margin-top: 20px;
         box-sizing: border-box;
-        border-radius: 20px;
-        border: 2px solid #3F165B;
+        border-radius: 30px;
         display: grid;
         align-items: flex-end;
         padding-bottom: 15px;
+        box-shadow: 5px 5px 20px #000000c9;
+        transition: all 0.3s ease;
 
         a {
             text-decoration: none;
@@ -62,8 +63,9 @@
         h4{
             font-family: Oswald;
             text-align: center;
-            font-weight: bold;
+            font-weight: 600;
             color: #fff;
+            letter-spacing: 1px;
         }
 
         p{
@@ -72,5 +74,10 @@
             font-weight: normal;
             color: #fff;
         }
+    }
+
+    >div:hover{
+        transform: scale(1.05);
+        cursor: pointer;
     }
 }

@@ -40,7 +40,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Login</title>
+        <title>Job2Be - Semana da Biomédica</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
         <meta charset="UTF-8">
         <link rel="stylesheet" href="assets/styles/styles_login_signup.css">
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>

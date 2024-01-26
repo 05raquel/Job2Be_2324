@@ -11,6 +11,11 @@ if(isset($_SESSION["user_id"])){
 }
 
 ?>
+<head>
+    <title>Job2Be - Semana da Biomédica</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+</head>
+
 <body>
     <?php include("includes/new_menu.php");?>
 

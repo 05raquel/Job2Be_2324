@@ -15,10 +15,10 @@
 
             <div class="links">
 
+                <a href="index.php">HOME</a>
                 <a href="sobre.php">SOBRE</a>
                 <a href="horario.php">HORÁRIO</a>
                 <a href="equipa.php">A EQUIPA</a>
-                <a href="contactos.php">CONTACTOS</a>
                 <div id="login">
                     <?php if (isset($user)):?>
                         <div class="item">

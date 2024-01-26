@@ -1,0 +1,301 @@
+#presi{
+    background-color: #8E73B2;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.elementos {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    overflow: auto;
+}
+
+#presi .andrePestana{
+    background-image: url('../img/equipas/peeps/presi/AndrePestana.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#presi .danielaFerreira{
+    background-image: url('../img/equipas/peeps/presi/DanielaFerreira.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#presi .martaAlves{
+    background-image: url('../img/equipas/peeps/presi/MartaAlves.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#presi .titulo-branco{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#presi .elementos {
+    justify-content: center;
+}
+#informatica .elementos {
+    justify-content: center;
+    width: calc(100vw - 320px);
+}
+
+#cientifico .leticiaSousa{
+    background-image: url('../img/equipas/peeps/cientifico/LeticiaSousa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cientifico .afonsoCarvalho{
+    background-image: url('../img/equipas/peeps/cientifico/AfonsoCarvalho.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cientifico .beatrizCoutinho{
+    background-image: url('../img/equipas/peeps/cientifico/BeatrizCoutinho.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cientifico .brunoMassano{
+    background-image: url('../img/equipas/peeps/cientifico/BrunoMassano.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cientifico .franciscoSilva{
+    background-image: url('../img/equipas/peeps/cientifico/FranciscoSilva.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cientifico .leonorCaldeira{
+    background-image: url('../img/equipas/peeps/cientifico/LeonorCaldeira.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cientifico .rodrigoCarago{
+    background-image: url('../img/equipas/peeps/cientifico/RodrigoCarago.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#cientifico .sofiaCosta{
+    background-image: url('../img/equipas/peeps/cientifico/SofiaCosta.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#imagem .beatrizmartins{
+    background-image: url('../img/equipas/peeps/imagem/BeatrizMartins.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagem .mariaPita{
+    background-image: url('../img/equipas/peeps/imagem/MariaPita.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagem .mariaCoutinho{
+    background-image: url('../img/equipas/peeps/imagem/MariaCoutinho.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagem .goncaloMonteiro{
+    background-image: url('../img/equipas/peeps/imagem/GoncaloMonteiro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagem .carlotaMontes{
+    background-image: url('../img/equipas/peeps/imagem/CarlotaMontes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagem .inesMabutana{
+    background-image: url('../img/equipas/peeps/imagem/InesMabutana.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#imagem .martinaMachado{
+    background-image: url('../img/equipas/peeps/imagem/MartinaMachado.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.elementos > div {
+    flex: 0 0 180px;
+    height: 230px;
+    border-radius: 0.8rem;
+    transition: 0.5s ease-in-out;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+    background: #D9D9D9;
+    box-shadow: 0 3px 3px rgb(0, 0, 0, 0.3);
+
+    .pessoa {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        opacity: 0;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-end;
+        background: rgb(217 217 217);
+        background: linear-gradient(0deg, #fff 20%, rgba(255, 255, 255, 0) 100%);
+        transform: translateY(100%);
+        transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+        visibility: hidden;
+    }
+
+    &:hover {
+        flex: 0 0 180px;
+        /*box-shadow: 1px 3px 15px #d9d9d9ad;*/
+
+        .pessoa {
+            opacity: 1;
+            transform: translateY(0%);
+            visibility: visible;
+        }
+    }
+}
+.elementos::-webkit-scrollbar {
+    display: none;
+}
+
+
+h2.name {
+    color: #3F165B;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    z-index: 1;
+    margin: 0;
+    margin-bottom: 50px;
+    height: 10px;
+}
+
+.rowIcons {
+    display: flex;
+    width: 140px;
+    justify-content: end;
+    margin: 0;
+    margin-bottom: 140px;
+    z-index: 1;
+    margin-top: 5px;
+    
+    > a i {
+        margin-left: 1.5px;
+        margin-right: 1.5px;
+        font-size: 20px;
+    }
+}
+
+.titulo-barra{
+    display: flex;
+    background-color: #3F165B;
+    justify-content: end;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pessoas-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.coordenadora{
+    margin-top: 0px;
+    position: relative;
+    width: 320px;
+    height: 300px;
+    background-color: #8E73B2;
+    padding: 0px;
+    padding-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align items vertically at the center */
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.colaboradores{
+    width: calc(100vw - 320px);;
+    height: 300px;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.titulo-branco-pequeno{
+    color: #fff;
+    font-family:  'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo-roxo-pequeno{
+    color: #3F165B;
+    font-family:  'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+.coord{
+    height: 230px;
+    border-radius: 0.8rem;
+    transition: 0.5s ease-in-out;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+    background: #D9D9D9;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+
+    .pessoa-coord {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        opacity: 0;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-end;
+        background: rgb(217 217 217);
+        background: linear-gradient(0deg, #fff 20%, rgba(255, 255, 255, 0) 100%);
+        transform: translateY(100%);
+        transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+        visibility: hidden;
+    }
+
+    &:hover {
+
+        .pessoa-coord {
+            opacity: 1;
+            transform: translateY(0%);
+            visibility: visible;
+        }
+    }
+}

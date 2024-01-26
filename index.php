@@ -15,7 +15,8 @@ if(isset($_SESSION["user_id"])){
 <!DOCTYPE html>
 <html>
     <head>
-        <title>index</title>
+        <title>Job2Be - Semana da Biomédica</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
         <meta charset="UTF-8">
         <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
         <style>
@@ -42,6 +43,7 @@ if(isset($_SESSION["user_id"])){
         <?php include("index_1.php");?>
         <?php include("index_2.php");?>
         <?php include("index_3.php");?>
+        <?php include("index_4.php");?>
         
         <?php include("includes/new_footer.php");?>
     </body>

@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="assets/styles/style_index_1.css">
 </head>
 <body>
-    <div class="line">
+    <div class="line" id="topo">
         <div class="image">
             <img src="assets/img/savethedateimg.png">
         </div>

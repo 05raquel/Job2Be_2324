@@ -17,7 +17,8 @@ if(isset($_SESSION["user_id"])){
 <!DOCTYPE html>
 <html>
     <head>
-        <title>profile-page</title>
+        <title>Job2Be - Semana da Biomédica</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
         <meta charset="UTF-8">
     </head>
     <body>
