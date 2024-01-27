@@ -12,6 +12,20 @@
     overflow: auto;
 }
 
+#presi .titulo-branco{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#presi .elementos {
+    justify-content: center;
+}
+#informatica .elementos {
+    justify-content: center;
+    width: calc(100vw - 320px);
+}
+
+/* ------- Fotos do peeps ------- */
+
 #presi .andrePestana{
     background-image: url('../img/equipas/peeps/presi/AndrePestana.jpeg');
     background-size: cover;
@@ -30,18 +44,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-#presi .titulo-branco{
-    text-align: center;
-    padding-bottom: 10px;
-}
-#presi .elementos {
-    justify-content: center;
-}
-#informatica .elementos {
-    justify-content: center;
-    width: calc(100vw - 320px);
 }
 
 #cientifico .leticiaSousa{
@@ -135,6 +137,113 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#informatica .raquelCoelho{
+    background-image: url('../img/equipas/peeps/informatica/RaquelCoelho.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#informatica .saraCoelho{
+    background-image: url('../img/equipas/peeps/informatica/SaraCoelho.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#informatica .anaAlfaiate{
+    background-image: url('../img/equipas/peeps/informatica/AnaAlfaiate.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#informatica .inesSantos{
+    background-image: url('../img/equipas/peeps/informatica/InesSantos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#parcerias .ritaNunes{
+    background-image: url('../img/equipas/peeps/parcerias/RitaNunes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#parcerias .cesarRosa{
+    background-image: url('../img/equipas/peeps/parcerias/CesarRosa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#parcerias .antonioGameiro{
+    background-image: url('../img/equipas/peeps/parcerias/AntonioGameiro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#parcerias .inesReis{
+    background-image: url('../img/equipas/peeps/parcerias/InesReis.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#parcerias .marianaFerreira{
+    background-image: url('../img/equipas/peeps/parcerias/MarianaFerreira.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#parcerias .davidLopes{
+    background-image: url('../img/equipas/peeps/parcerias/DavidLopes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#parcerias .rodrigoCosta{
+    background-image: url('../img/equipas/peeps/parcerias/RodrigoCosta.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#logistica .mafaldaAleixo{
+    background-image: url('../img/equipas/peeps/logistica/MafaldaAleixo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logistica .margaridaNunes{
+    background-image: url('../img/equipas/peeps/logistica/MargaridaNunes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logistica .matildeFonseca{
+    background-image: url('../img/equipas/peeps/logistica/MatildeFonseca.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logistica .marianaAzevedo{
+    background-image: url('../img/equipas/peeps/logistica/MarianaAzevedo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logistica .pedroMarques{
+    background-image: url('../img/equipas/peeps/logistica/PedroMarques.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#logistica .monicaAlmeida{
+    background-image: url('../img/equipas/peeps/logistica/MonicaAlmeida.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
 .elementos > div {
     flex: 0 0 180px;
