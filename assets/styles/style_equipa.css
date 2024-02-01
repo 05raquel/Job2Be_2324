@@ -27,20 +27,20 @@
 /* ------- Fotos do peeps ------- */
 
 #presi .andrePestana{
-    background-image: url('../img/equipas/peeps/presi/AndrePestana.jpeg');
+    background-image: url('../img/equipas/peeps/presi/AndrePestana.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #presi .danielaFerreira{
-    background-image: url('../img/equipas/peeps/presi/DanielaFerreira.jpeg');
+    background-image: url('../img/equipas/peeps/presi/DanielaFerreira.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 #presi .martaAlves{
-    background-image: url('../img/equipas/peeps/presi/MartaAlves.jpeg');
+    background-image: url('../img/equipas/peeps/presi/MartaAlves.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -220,6 +220,13 @@
 }
 #logistica .matildeFonseca{
     background-image: url('../img/equipas/peeps/logistica/MatildeFonseca.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#logistica .catarinaFreitas{
+    background-image: url('../img/equipas/peeps/logistica/CatarinaFreitas.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

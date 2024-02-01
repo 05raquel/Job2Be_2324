@@ -324,7 +324,7 @@ if(isset($_SESSION["user_id"])){
                                     <i class="fa fa-linkedin-square" style="color: #3F165B;"></i>
                                 </a>
                             </div>
-                            <h2 class="name">Ana alfaiate</h2>
+                            <h2 class="name">Ana Alfaiate</h2>
                         </div>
                     </div>
                     <div class="saraCoelho">
@@ -392,6 +392,19 @@ if(isset($_SESSION["user_id"])){
                                 </a>
                             </div>
                             <h2 class="name">Ana Campos</h2>
+                        </div>
+                    </div>
+                    <div class="catarinaFreitas">
+                        <div class="pessoa">
+                            <div class="rowIcons">
+                                <a href="mailto:" class="icon-link">
+                                    <i class="fa-solid fa-square-envelope" style="color: #3F165B;"></i>
+                                </a>
+                                <a href="" class="icon-link">
+                                    <i class="fa fa-linkedin-square" style="color: #3F165B;"></i>
+                                </a>
+                            </div>
+                            <h2 class="name">Catarina Freitas</h2>
                         </div>
                     </div>
                     <div class="margaridaNunes">
