@@ -1,0 +1,17 @@
+.texto{
+    p{
+        color: #fff;
+    }
+}
+
+.fundo-roxo{
+    display: flex;
+}
+
+.texto-branco{
+    width: 60%;
+}
+
+.imagem{
+    margin: 20px;
+}
