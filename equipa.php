@@ -510,7 +510,7 @@ if(isset($_SESSION["user_id"])){
                                     <i class="fa fa-linkedin-square" style="color: #3F165B;"></i>
                                 </a>
                             </div>
-                            <h2 class="name">César Rosa</h2>
+                            <h2 class="name">Mateus Rosa</h2>
                         </div>
                     </div>
                     <div class="antonioGameiro">
