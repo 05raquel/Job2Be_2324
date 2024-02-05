@@ -5,7 +5,7 @@
 <body>
     <div class="fundo-roxo">
         <div class="dentro">
-            <div class="imagem">
+            <div class="imagem-branca">
             <img src="assets/img/o_que_e_branco.png">
             </div>
             <div class="texto-branco" style="font-size: 20px">
