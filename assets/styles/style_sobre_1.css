@@ -1,17 +1,16 @@
-.texto{
-    p{
-        color: #fff;
-    }
-}
 
-.fundo-roxo{
+.dentro{
     display: flex;
+    align-items: center;
 }
 
 .texto-branco{
     width: 60%;
+    line-height: 2.5;
+    font-size: 18px;
+    margin: 0 0 0 40px;
 }
 
 .imagem{
-    margin: 20px;
+    margin: 60px;
 }

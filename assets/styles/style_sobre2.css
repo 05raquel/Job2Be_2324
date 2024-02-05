@@ -1,0 +1,20 @@
+.fundo-branco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bold-caps{
+    text-align: center; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    line-height: 2.5; 
+    font-size: 20px; 
+    margin: 0 60 0 60px;
+}
+
+.small-text{
+    text-align: center; 
+    font-size: 20px; 
+    margin: 20 0 20 0px;
+}
