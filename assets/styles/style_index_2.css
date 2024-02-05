@@ -1,0 +1,46 @@
+.dentro{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 3rem;
+}
+
+.texto-sobre2{
+    width: 60%;
+    line-height: 2.5;
+    font-size: 18px;
+    flex: 1 0 35rem;
+}
+
+.imagem-roxa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    flex: 1 0 10rem;
+    img{
+        width: 70%;
+        min-width: 243px;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .sobre-button{
+        background-color: #3F165B; 
+        color: #FFFFFF; 
+        border-radius: 15px; 
+        border: none;
+        box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+        margin-top: 2rem;
+        padding: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .sobre-button:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}

@@ -2,6 +2,7 @@
 .dentro{
     display: flex;
     align-items: center;
+    margin: 2em;
 }
 
 .texto-branco{

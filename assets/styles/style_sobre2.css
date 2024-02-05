@@ -1,7 +1,8 @@
-.fundo-branco{
+.dentro-branco{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2em;
 }
 
 .bold-caps{
@@ -11,6 +12,7 @@
     line-height: 2.5; 
     font-size: 20px; 
     margin: 0 60 0 60px;
+    letter-spacing: 1.2px;
 }
 
 .small-text{
