@@ -206,6 +206,13 @@
     background-position: center;
 }
 
+#logistica .anaCampos{
+    background-image: url('../img/equipas/peeps/logistica/AnaCampos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #logistica .mafaldaAleixo{
     background-image: url('../img/equipas/peeps/logistica/MafaldaAleixo.jpg');
     background-size: cover;
