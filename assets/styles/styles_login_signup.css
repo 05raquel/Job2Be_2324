@@ -5,7 +5,7 @@ body {
 
 h1 {
     font-size: 50px;
-    color: #002E4F;
+    color: #3F165B;
 }
 
 h2 {
@@ -55,7 +55,7 @@ p a {
 }
 
 a:hover {
-    color: #002E4F;
+    color: #3F165B;
     font-weight: 900;
 }
 
@@ -76,7 +76,7 @@ a:hover {
 .signupForm {
     height: 100%;
     width: 30%;
-    background-color: #7C93A3;
+    background-color:#AB9BC0 ; /*#8e73b2cb #7c74a5 #7C93A3*/ 
     display: inline-block;
     box-sizing: border-box;
     vertical-align: top;
@@ -102,7 +102,7 @@ form {
 }
 
 .button_log_in:hover{
-    background-color: #002e4fde;
+    background-color: #3F165Bde; /* #002e4fde;*/
 }
 
 /* Style for form labels */
@@ -110,7 +110,7 @@ form label {
     display: block;
     /* Display labels as block elements to stack them vertically */
     font-size: 13px;
-    color: #002E4F;
+    color: #3F165B;
     margin-top: 10px;
     margin-bottom: 2px;
     /* Add spacing between labels and inputs */
@@ -135,12 +135,12 @@ form input[type="password"] {
 form input[type="text"],
 form input[type="email"],
 form input[type="password"] {
-    background-color: #BEC9D1;
+    background-color: #c9bed1; /*#002e4f #3F165B BEC9D1*/
 }
 
 /* Background and text color for the button */
 form button {
-    background-color: #002E4F;
+    background-color: #3F165B;
     color: white;
     cursor: pointer;
     width: auto;
@@ -161,7 +161,7 @@ form button {
 
 /* On hover, slightly lighten the button background color */
 form button:hover {
-    background-color: #002e4fde;
+    background-color: #3F165Bde;
 }
 
 @media (max-width: 768px) {
