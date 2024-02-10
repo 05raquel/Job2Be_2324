@@ -1,7 +1,7 @@
 dayjs.extend(dayjs_plugin_duration);
 
 function activateCountdown(element, dateString){
-    const targetDate = dayjs(dateString).hour(10);
+    const targetDate = dayjs(dateString).hour(0);
 
     console.log(targetDate);
 
