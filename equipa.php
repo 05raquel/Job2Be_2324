@@ -88,7 +88,7 @@ if(isset($_SESSION["user_id"])){
             </div>
             <div class="colaboradores">
                 <div class="titulo-roxo-pequeno">Colaboradores</div>
-                <div class="elementos">
+                <div class="elementos" id="cientifico2">
                     <div class="afonsoCarvalho">
                         <div class="pessoa">
                             <div class="rowIcons">
@@ -207,7 +207,7 @@ if(isset($_SESSION["user_id"])){
             </div>
             <div class="colaboradores">
                 <div class="titulo-roxo-pequeno">Colaboradores</div>
-                <div class="elementos">
+                <div class="elementos" id="imagem2">
                     <div class="goncaloMonteiro">
                         <div class="pessoa">
                             <div class="rowIcons">
@@ -313,7 +313,7 @@ if(isset($_SESSION["user_id"])){
             </div>
             <div class="colaboradores">
                 <div class="titulo-roxo-pequeno">Colaboradores</div>
-                <div class="elementos">
+                <div class="elementos" id="informatica2">
                     <div class="anaAlfaiate">
                         <div class="pessoa">
                             <div class="rowIcons">
@@ -380,7 +380,7 @@ if(isset($_SESSION["user_id"])){
             </div>
             <div class="colaboradores">
                 <div class="titulo-roxo-pequeno">Colaboradores</div>
-                <div class="elementos">
+                <div class="elementos" id="logistica2">
                     <div class="anaCampos">
                         <div class="pessoa">
                             <div class="rowIcons">
@@ -499,7 +499,7 @@ if(isset($_SESSION["user_id"])){
             </div>
             <div class="colaboradores">
                 <div class="titulo-roxo-pequeno">Colaboradores</div>
-                <div class="elementos">
+                <div class="elementos" id="parcerias2">
                     <div class="cesarRosa">
                         <div class="pessoa">
                             <div class="rowIcons">
@@ -583,4 +583,28 @@ if(isset($_SESSION["user_id"])){
         </div>
     </div>
     <?php include("includes/new_footer.php");?>
+
+    <script>
+        function scrollHorizontally(event, container) {
+            var delta = Math.max(-1, Math.min(1, (event.wheelDelta || -event.detail)));
+            container.scrollLeft -= (delta * 70); // Adjust scrolling speed
+            event.preventDefault();
+        }
+
+        document.getElementById('cientifico2').addEventListener('wheel', function(event) {
+            scrollHorizontally(event, this);
+        });
+        document.getElementById('imagem2').addEventListener('wheel', function(event) {
+            scrollHorizontally(event, this);
+        });
+        document.getElementById('informatica2').addEventListener('wheel', function(event) {
+            scrollHorizontally(event, this);
+        });
+        document.getElementById('logistica2').addEventListener('wheel', function(event) {
+            scrollHorizontally(event, this);
+        });
+        document.getElementById('parcerias2').addEventListener('wheel', function(event) {
+            scrollHorizontally(event, this);
+        });
+    </script>
 </body>
