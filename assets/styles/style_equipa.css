@@ -391,6 +391,7 @@ h2.name {
 
 .coord{
     height: 230px;
+    width: 170px;
     border-radius: 0.8rem;
     transition: 0.5s ease-in-out;
     cursor: default;
