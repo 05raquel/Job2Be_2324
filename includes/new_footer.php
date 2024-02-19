@@ -13,7 +13,6 @@
             <a href="sobre.php">SOBRE</a>
             <a href="horario.php">HORÁRIO</a>
             <a href="equipa.php">A EQUIPA</a>
-            <a href="contactos.php">CONTACTOS</a>
         </div>
         <div class="icons">
             <a href="https://www.instagram.com/job2.be/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
