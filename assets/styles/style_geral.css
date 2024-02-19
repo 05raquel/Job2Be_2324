@@ -33,6 +33,15 @@
     letter-spacing: 2px;
 }
 
+h2.titulo-roxo{
+    font-size: 1.5rem ;
+}
+
+h2.titulo-branco{
+    font-size: 1.5rem ;
+}
+
+
 .texto-roxo{
     text-align: justify;
     text-justify: inter-word;
