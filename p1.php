@@ -13,3 +13,4 @@
 <form method="post" action="assets/database/pontos.php">
     <button type="submit" name="p4">Palestra 4</button>
 </form>
+

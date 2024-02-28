@@ -29,6 +29,10 @@ if(isset($_SESSION["user_id"])){
             .data-local{
                 font-weight: 600;
                 font-size: 18px;
+            }
+            .data-local2{
+                font-weight: 600;
+                font-size: 18px;
                 padding-bottom: 10px;
             }
         </style>
@@ -82,7 +86,7 @@ if(isset($_SESSION["user_id"])){
                 <div class="atividade" id="p-ia_saude">
                     <h2 class="titulo-roxo">Inteligência Artificial | Na Saúde</h2>
                     <div class = "texto-roxo">
-                        <p>Horário: 4ª feira, dia 6 das 13:30 às 15:00</p>
+                        <p class="data-local">4ª feira, dia 6 das 13:30 às 15:00</p>
                         <p>Local:</p>
                         <p>Descrição:</p>
                         <p>Oradores:
@@ -96,22 +100,11 @@ if(isset($_SESSION["user_id"])){
             <div id="workshop">
                 <h1 class="titulo-roxo"  style="text-align:center">WORKSHOPS</h1>
                 <div class="atividade" id="ws1">
-                    <h2 class="titulo-roxo"></h2>
+                    <h2 class="titulo-roxo"> </h2>
                     <div class = "texto-roxo">
-                        <p>Horário: 2ª feira, dia 4 das 15:30 às 17:00</p>
-                        <p>Local:</p>
-                        <p>Descrição:</p>
-                        <p>Oradores:
-                            Foto
-                            Descrição </p>
-                    </div>
-                </div>
-                <div class="atividade" id="ws2">
-                    <h2 class="titulo-roxo"></h2>
-                    <div class = "texto-roxo">
-                        <p>Horário: 3ª feira, dia 5 das 9:00 às 11:00</p>
-                        <p>Local:</p>
-                        <p>Descrição:</p>
+                        <p class="data-local">2ª feira, dia 4 das 15:30 às 17:00</p>
+                        <p>Sala: V1.15 </p>
+                        <p>Accenture</p>
                         <p>Oradores:
                             Foto
                             Descrição </p>
@@ -121,22 +114,24 @@ if(isset($_SESSION["user_id"])){
                     <h2 class="titulo-roxo">Técnica Cirúrgica - Volar-e</h2>
                     <div class = "texto-roxo">
                         <p class="data-local">3ª feira, dia 5 das 15:30 às 17:00</p>
-                        <p>Local: v1.05</p>
-                        <p>Descrição:</p>
-                        <p>Oradores:
-                            Foto
-                            Descrição </p>
+                        <p class="data-local2">Sala: V1.05</p>
+                        <!--<p>Local: v1.05</p>-->
+                        <p>O workshop “Técnica Cirúrgica - Volar-e” desenvolvido pela Astrolabe Medical, tem como principal objetivo demonstrar de forma detalhada o procedimento cirúrgico inovador desenvolvido para a correção e realinhamento da anatomia em casos de fraturas do rádio distal. Durante o workshop, através da utilização do sistema Volar-e desenvolvido para esta tipologia de fratura, pretendemos elucidar cada um dos passos envolvidos durante o procedimento cirúrgico, permitindo aos participantes compreender melhor a complexidade e precisão necessárias para a realização bem-sucedida desta cirurgia.</p>
+                        
+                        
+                        <p>Dado por: Diogo Monteiro e Leonor Jud </p>
                     </div>
                 </div>
                 <div class="atividade" id="ws1">
-                    <h2 class="titulo-roxo"></h2>
+                    <h2 class="titulo-roxo">Medtronic, a Inovação na Indústria dos Dispositivos Médicos</h2>
                     <div class = "texto-roxo">
-                        <p>Horário: 4ª feira, dia 6 das 9:00 às 10:30</p>
-                        <p>Local:</p>
-                        <p>Descrição:</p>
-                        <p>Oradores:
-                            Foto
-                            Descrição </p>
+                        <p class="data-local">4ª feira, dia 6 das 9:00 às 10:30</p>
+                        <p class="data-local2">Sala: V1.07</p>
+                       
+                        
+                        <p>O Workshop ‘Medtronic, a Inovação na Indústria dos Dispositivos Médicos’ começa por apresentar a empresa Medtronic, bem como a sua dimensão, áreas de interesse e visão estratégica. De seguida, dois Engenheiros Biomédicos abordarão depois duas áreas de negócio do domínio de actuação da Medtronic e de como a Engenharia Biomédica se enquadra neste ecossistema, Neuromodulação e Cirurgia Laparoscópica. </p>
+                        <p> </p>
+                        <p>Dado por: João Miguel Branco Silva e Catarina Sousa </p>
                     </div>
                 </div>
             </div>
@@ -148,8 +143,10 @@ if(isset($_SESSION["user_id"])){
                     <div class = "texto-roxo">
                         <p>Horário: 2ª feira, dia 4 das 11:30 às 12:00</p>
                         <p>Local:</p>
-                        <p>Descrição:</p>
-                        <p>Oradores:
+                        <p>Pitch Glintt - apresentação da empresa Glintt Global</p>
+
+
+                        <p>Oradores: / Dado por: Joana Santos
                             Foto
                             Descrição </p>
                     </div>
