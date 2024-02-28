@@ -55,3 +55,29 @@ h2.titulo-branco{
     background-color: #fff;
     padding: 2rem;
 }
+
+.fundo-branco.botao{
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.pontos-botao{
+    background-color: #3F165B;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.pontos-botao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
