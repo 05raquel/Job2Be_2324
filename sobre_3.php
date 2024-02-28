@@ -9,28 +9,28 @@
         <h1 class="titulo-branco"  style="text-align:center">TEMAS DESTE ANO</h1>
         
         <div class="temas">
-            <div class="mobilidade"> <a href="./atividades.php#p-mobilidade">
+            <div class="mobilidade" onclick="redirectToLink('./atividades.php#p-mobilidade')"> <a href="">
                 <div class="content"> 
                     <h4>Mobilidade Assistida </h4>
                     <p>Da inovação à acessibilidade</p> 
                 </div>
             </a>
             </div>
-            <div class="eng_tecidos"> <a href="./atividades.php#p-eng_tecidos">
+            <div class="eng_tecidos" onclick="redirectToLink('./atividades.php#p-eng_tecidos')">> <a href="">
                 <div class="content"> 
                     <h4> R(e)volucionando a engenharia de tecidos</h2>
                     <p>Do cultivo à impressão</p>
                 </div>
             </a>
             </div>
-            <div class="nova_era_saude"> <a href="./atividades.php#p-nova_era_saude">
+            <div class="nova_era_saude" onclick="redirectToLink('./atividades.php#p-nova_era_saude')">> <a href="">
                 <div class="content"> 
                     <h4>A Nova Era na Saúde</h4>
                     <p>Telemonitorização & Telemedicina</p>
                 </div>
             </a>
             </div>
-            <div class="ia_saude"> <a href="./atividades.php#p-ia_saude">
+            <div class="ia_saude" onclick="redirectToLink('./atividades.php#p-ia_saude')">> <a href="">
                 <div class="content"> 
                     <h4> Inteligência Artificial</h4>
                     <p>Na Saúde</p>
@@ -44,5 +44,12 @@
 
 
     </div>
+
+    <script>
+        function redirectToLink(link) {
+            // Change window location to the desired link
+            window.location.href = link;
+        }
+    </script>
     
 </body>

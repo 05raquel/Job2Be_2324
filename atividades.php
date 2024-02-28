@@ -21,20 +21,15 @@ if(isset($_SESSION["user_id"])){
         <meta charset="UTF-8">
         <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
         <style>
-            .qrcodeReader{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            .atividade{
+                margin-top: 15px;
+                margin-bottom: 15px;
             }
-            #reader{
-                width: 600px;
-            }
-            #result{
-                text-align: center;
-                font-size: 1.5rem;
-            }
-            #reader__scan_region img{
-                display: none;
+
+            .data-local{
+                font-weight: 600;
+                font-size: 18px;
+                padding-bottom: 10px;
             }
         </style>
     </head>
@@ -48,7 +43,7 @@ if(isset($_SESSION["user_id"])){
                 <div class="atividade" id="p-nova_era_saude">
                     <h2 class="titulo-roxo">A Nova Era na Saúde | Telemonitorização & Telemedicina</h2>
                     <div class = "texto-roxo">
-                        <p>Horário: 2ª feira, dia 4 das 10:00 às 11:30</p>
+                        <p class="data-local">2ª feira, dia 4 das 10:00 às 11:30</p>
                         <p>Local:</p>
                         <p>Descrição:</p>
                         <p>Oradores:
@@ -61,7 +56,7 @@ if(isset($_SESSION["user_id"])){
                 <div class="atividade" id="p-eng_tecidos">
                     <h2 class="titulo-roxo">R(e)volucionando a engenharia de tecidos | Do cultivo à impressão</h2>
                     <div class = "texto-roxo">
-                        <p>Horário: 2ª feira, dia 4 das 13:30 às 15:00</p>
+                        <p class="data-local">2ª feira, dia 4 das 13:30 às 15:00</p>
                         <p>Local:</p>
                         <p>Descrição:</p>
                         <p>Oradores:
@@ -74,7 +69,7 @@ if(isset($_SESSION["user_id"])){
                 <div class="atividade" id="p-mobilidade">
                     <h2 class="titulo-roxo">Mobilidade Assistida  | Da inovação à acessibilidade</h2>
                     <div class = "texto-roxo">
-                        <p>Horário: 3ª feira, dia 5 das 13:30 às 15:00</p>
+                        <p class="data-local">3ª feira, dia 5 das 13:30 às 15:00</p>
                         <p>Local:</p>
                         <p>Descrição:</p>
                         <p>Oradores:
@@ -123,10 +118,10 @@ if(isset($_SESSION["user_id"])){
                     </div>
                 </div>
                 <div class="atividade" id="ws3">
-                    <h2 class="titulo-roxo"></h2>
+                    <h2 class="titulo-roxo">Técnica Cirúrgica - Volar-e</h2>
                     <div class = "texto-roxo">
-                        <p>Horário: 3ª feira, dia 5 das 15:30 às 17:00</p>
-                        <p>Local:</p>
+                        <p class="data-local">3ª feira, dia 5 das 15:30 às 17:00</p>
+                        <p>Local: v1.05</p>
                         <p>Descrição:</p>
                         <p>Oradores:
                             Foto
