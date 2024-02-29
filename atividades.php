@@ -100,7 +100,7 @@ if(isset($_SESSION["user_id"])){
             <div id="workshop">
                 <h1 class="titulo-roxo"  style="text-align:center">WORKSHOPS</h1>
                 <div class="atividade" id="ws1">
-                    <h2 class="titulo-roxo"> </h2>
+                    <h2 class="titulo-roxo"> Accenture</h2>
                     <div class = "texto-roxo">
                         <p class="data-local">2ª feira, dia 4 das 15:30 às 17:00</p>
                         <p>Sala: V1.15 </p>
@@ -110,19 +110,17 @@ if(isset($_SESSION["user_id"])){
                             Descrição </p>
                     </div>
                 </div>
-                <div class="atividade" id="ws3">
+                <div class="atividade" id="ws2">
                     <h2 class="titulo-roxo">Técnica Cirúrgica - Volar-e</h2>
                     <div class = "texto-roxo">
                         <p class="data-local">3ª feira, dia 5 das 15:30 às 17:00</p>
                         <p class="data-local2">Sala: V1.05</p>
                         <!--<p>Local: v1.05</p>-->
                         <p>O workshop “Técnica Cirúrgica - Volar-e” desenvolvido pela Astrolabe Medical, tem como principal objetivo demonstrar de forma detalhada o procedimento cirúrgico inovador desenvolvido para a correção e realinhamento da anatomia em casos de fraturas do rádio distal. Durante o workshop, através da utilização do sistema Volar-e desenvolvido para esta tipologia de fratura, pretendemos elucidar cada um dos passos envolvidos durante o procedimento cirúrgico, permitindo aos participantes compreender melhor a complexidade e precisão necessárias para a realização bem-sucedida desta cirurgia.</p>
-                        
-                        
                         <p>Dado por: Diogo Monteiro e Leonor Jud </p>
                     </div>
                 </div>
-                <div class="atividade" id="ws1">
+                <div class="atividade" id="ws3">
                     <h2 class="titulo-roxo">Medtronic, a Inovação na Indústria dos Dispositivos Médicos</h2>
                     <div class = "texto-roxo">
                         <p class="data-local">4ª feira, dia 6 das 9:00 às 10:30</p>

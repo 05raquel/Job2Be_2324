@@ -25,9 +25,9 @@ if(isset($_SESSION["user_id"])){
         <?php include("includes/new_menu.php");?>
         <div class="fundo-branco botao">
             <h1 class="titulo-roxo"  style="text-align:center">PALESTRA</h1>
-            <h2 class="titulo-roxo">A Nova Era na Saúde | Telemonitorização & Telemedicina</h2>
+            <h2 class="titulo-roxo">Inteligência Artificial | Na Saúde</h2>
             <form method="post" action="assets/database/pontos.php">
-                <button class="pontos-botao"type="submit" name="p1">Palestra 1</button>
+                <button class="pontos-botao"type="submit" name="p4">Palestra 4</button>
             </form>
         </div>
         

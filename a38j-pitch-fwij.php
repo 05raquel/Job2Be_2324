@@ -24,10 +24,10 @@ if(isset($_SESSION["user_id"])){
     <body>
         <?php include("includes/new_menu.php");?>
         <div class="fundo-branco botao">
-            <h1 class="titulo-roxo"  style="text-align:center">PALESTRA</h1>
-            <h2 class="titulo-roxo">A Nova Era na Saúde | Telemonitorização & Telemedicina</h2>
+            <h1 class="titulo-roxo"  style="text-align:center">PITCH</h1>
+            <h2 class="titulo-roxo"></h2>
             <form method="post" action="assets/database/pontos.php">
-                <button class="pontos-botao"type="submit" name="p1">Palestra 1</button>
+                <button class="pontos-botao"type="submit" name="pitch">Pitch</button>
             </form>
         </div>
         
