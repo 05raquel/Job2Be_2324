@@ -135,6 +135,7 @@ if(isset($_SESSION["user_id"])){
                 <div class="linha-topo-botoes">
                     <button class="botao-cv" data-tally-open="3qV06G" data-tally-width="400" data-tally-hide-title="1" data-tally-auto-close="1000">SUBMETE AQUI O TEU CV</button>
                 </div>
+                <i class="fas fa-badge-check" style="color: #63E6BE;"></i>
                 <?php if ($user["cv"] == 1):?>
                     <i class="fas fa-badge-check" style="color: #63E6BE;"></i>
                 <?php endif; ?>
