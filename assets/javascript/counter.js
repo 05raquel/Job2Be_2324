@@ -19,4 +19,4 @@ function activateCountdown(element, dateString){
     
 }
 
-activateCountdown(document.getElementById("myCountdown"), "2024-03-03")
+activateCountdown(document.getElementById("myCountdown"), "2024-03-04")
