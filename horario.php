@@ -59,8 +59,8 @@ if(isset($_SESSION["user_id"])){
         </div>
         <div class="terca">
             <div class="titulo-roxo titulo-dia">3ª FEIRA</div>
-            <div class="bloco-horario sessenta workshop">
-                <div class="texto-branco titulo">WORKSHOP</div>
+            <div class="bloco-horario sessenta outros">
+                <div class="texto-branco titulo">FEIRA DE EMPRESAS</div>
                 <div class="texto-branco hora">9h00 - 10h00</div>
             </div>
             <div class="bloco-horario trinta coffee-break">
