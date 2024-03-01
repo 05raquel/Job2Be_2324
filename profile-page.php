@@ -22,16 +22,28 @@ if(isset($_SESSION["user_id"])){
         <link rel="stylesheet" href="assets/styles/style_geral.css">
         <meta charset="UTF-8">
         <script async src="https://tally.so/widgets/embed.js"></script>
+        <script src="https://kit.fontawesome.com/e434f48fbf.js" crossorigin="anonymous"></script>
         <style>
             @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
             @import url("https://fonts.googleapis.com/css?family=League+Spartan:wght@300,300i,400,400i,600,600i,700,700i&display=swap");
             @import url('https://fonts.googleapis.com/css2?family=Oswald');
             
+            .profile{
+                height: 100vh;
+                display: flex;
+            }
             .pessoal{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                width: 22%;
+            }
+            .pessoal-branco{
+                width: auto;
+            }
+            .lista{
+                height: 100%;
             }
 
             ul {
@@ -44,10 +56,41 @@ if(isset($_SESSION["user_id"])){
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                max-height: 100%;
+                overflow: scroll;
+            }
+
+            ul::-webkit-scrollbar{
+                display: none;
             }
 
             li{
-                padding: 3px;
+                padding: 7px;
+            }
+
+            .pontuacao{
+                font-size: 23px;
+                font-weight: bolder;
+            }
+
+            .bold-item {
+                font-weight: 600;
+            }
+
+            .botao-cv{
+                background-color: #3F165B;
+                border-radius: 8px;
+                border: none;
+                padding: 8px;
+                color: white;
+                font-size: 20px;
+                font-family: 'League Spartan', sans-serif;
+                font-weight: 600;
+                box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+            }
+            .botao-cv:hover{
+                transform: scale(1.01);
+                cursor: pointer;
             }
         </style>
     </head>
@@ -62,22 +105,43 @@ if(isset($_SESSION["user_id"])){
                     echo "<div class='pontos titulo-branco'>{$pontos}</div>";
                 ?>
                 <div class="rank titulo-roxo">RANKING</div>
-                <?php
-                    $sql = 'SELECT * FROM user WHERE email!="admin@gmail.com" ORDER BY points DESC';
-                    $result = $mysqli->query($sql);
+                <div class="lista">
+                    <?php
+                        $sql = 'SELECT * FROM user WHERE email!="admin@gmail.com" ORDER BY points DESC';
+                        $result = $mysqli->query($sql);
 
-                    if ($result->num_rows > 0) {
-                        echo "<ul>";
+                        if ($result->num_rows > 0) {
+                            echo "<ul>";
 
-                        while ($row = $result->fetch_assoc()) {
-                            echo "<li>{$row['user']} - {$row['points']}</li>";
+                            $count = 0; // Initialize a counter
+
+                            while ($row = $result->fetch_assoc()) {
+                                $count++;
+
+                                // Apply a CSS class for the first three items
+                                $class = ($count <= 3) ? 'bold-item' : '';
+
+                                echo "<li class='{$class}'>{$row['user']} - {$row['points']}</li>";
+                            }
+
+                            echo "</ul>";
+                        } else {
+                            echo "No users found.";
                         }
-
-                        echo "</ul>";
-                    } else {
-                        echo "No users found.";
-                    }
-                ?>
+                    ?>
+                </div>
+            </div>
+            <div class="pessoal-dir fundo-branco">
+                <div class="linha-topo-botoes">
+                    <button class="botao-cv" data-tally-open="3qV06G" data-tally-width="400" data-tally-hide-title="1" data-tally-auto-close="1000">SUBMETE AQUI O TEU CV</button>
+                </div>
+                <i class="fas fa-badge-check" style="color: #63E6BE;"></i>
+                <?php if ($user["cv"] == 1):?>
+                    <i class="fas fa-badge-check" style="color: #63E6BE;"></i>
+                <?php endif; ?>
+                <?php if ($user["cv"] == 0):?>
+                    <i class="fas fa-spinner" style="color: #999999;"></i>
+                <?php endif; ?>
             </div>
         </div>
 
