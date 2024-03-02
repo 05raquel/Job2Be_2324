@@ -293,7 +293,7 @@ if(isset($_SESSION["user_id"])){
                 <div class="linha-topo-botoes" style="margin-bottom: 15px;">
                     <button class="botao-cv" data-tally-open="3qV06G" data-tally-width="600" data-tally-hide-title="1" data-tally-auto-close="1000">SUBMETE AQUI O TEU CV</button>
                     <?php if ($user["cv"] == 1):?>
-                        <i class="fa-solid fa-circle-check" style="color: #63E6BE; font-size: 25px; margin-left: 10px; margin-top: 5px; opacity: 0.5; margin-right: 20px;"></i>
+                        <i class="fa-solid fa-circle-check" style="color: #63E6BE; font-size: 25px; margin-left: 10px; margin-top: 5px; opacity: 0.5; margin-right: 20px; top: 50%;"></i>
                     <?php endif; ?>
                     <?php if ($user["cv"] == 0):?>
                         <div class="tooltip">
