@@ -290,7 +290,7 @@ qualquer lugar.                            </p>
 
 
                 <div class="atividade" id="p-ia_saude">
-                    <h2 class="titulo-roxo">Inteligência Artificial | Na Saúde</h2>
+                    <h2 class="titulo-roxo">Inteligência Artificial | No setor da Saúde</h2>
                     <div class = "texto-roxo">
                         <p class="data-local">4ª feira, dia 6 das 13:30 às 15:00</p>
                         <p>Local:</p>
