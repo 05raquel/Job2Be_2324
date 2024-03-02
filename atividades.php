@@ -51,7 +51,48 @@ if(isset($_SESSION["user_id"])){
     <body>
         <?php include("includes/new_menu.php");?>
         
-        <div class="fundo-branco">/** 
+        <div class="fundo-branco">
+            <div id="sessoes">
+                <h1 class="titulo-roxo"  style="text-align:center">SESSÕES DE ABERTURA E ENCERRAMENTO</h1>
+                
+                <div class="atividade" id="abertura">
+                    <h2 class="titulo-roxo">Sessão de Abertura</h2>
+                    <div class = "texto-roxo">
+                        <p class="data-local">2ª feira, dia 4 das 09:00 às 09:30</p>
+                        <p>Centro de Congressos</p>
+                        <p>Para começar esta semana em grande, na sessão de abertura da JOB2BE contamos com a presença do Prof. João Sanches, Coordenador do Mestrado em Engenharia Biomédica, o Prof. João Conde, Presidente do Departamento de Bioengenharia do IST, e ainda Renata Fernandes, Presidente da ANEEB. 🧬 </p> 
+                        <p> Contamos contigo no dia 4 de março, às 9h, no Centro de Congressos! Fica atento para saberes mais novidades!</p>
+                    </div>
+                </div>
+
+                <div class="atividade" id="abertura">
+                    <h2 class="titulo-roxo">Sessão de Encerramento</h2>
+                    <div class = "texto-roxo">
+                        <p class="data-local">4ª feira, dia 6 das 15:30 às 16:00</p>
+                        <p>Centro de Congressos</p>
+                        <p>Para encerrar esta edição da JOB2BE contamos com a presença da Prof. Cláudia Lobato, Coordenadora da 
+                            Licenciatura em Engenharia Biomédica no IST, Gonçalo Ferreira, Presidente do Núcleo de Estudantes de 
+                            Engenharia Biomédica do IST, e Daniela Ferreira, que faz parte da Presidência desta edição da JOB2BE. 🦾</p>
+                        <p>Contamos contigo no dia 6 de março, às 15.30h, no Centro de Congressos!</p>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="palestra">
+                <h1 class="titulo-roxo"  style="text-align:center">PALESTRAS</h1>
+                
+                <div class="atividade" id="p-nova_era_saude">
+                    <h2 class="titulo-roxo">A Nova Era na Saúde | Wearables & Telemonitorização</h2>
+                    <div class = "texto-roxo">
+                        <p class="data-local">2ª feira, dia 4 das 10:00 às 11:30</p>
+                        <p>Local:</p>
+                        <p>Sabias que a tecnologia pode ajudar-te a cuidar melhor da tua saúde, mesmo à distância? Na palestra A Nova Era na Saúde: Wearables e Telemonitorização, vais descobrir como os wearables - dispositivos que usas no corpo, como relógios ou pulseiras inteligentes - e a telemonitorização - o acompanhamento remoto dos teus sinais vitais - podem fazer a diferença na prevenção e no tratamento de várias doenças. Nesta palestra poderás ficar a conhecer mais sobre wearables e invisibles, nomeadamente o LAMPSY: um aparelho de deteção automática por vídeo de crises epilépticas, que preserva a privacidade dos pacientes por raíz. Junta-te a nós nesta palestra imperdível! 🦾💻</p>
+                        <p>Oradores: Diogo Ramanho, Vicente Garção e Mariana Saraiva </p>
+                        <p>Moderador: Hugo Plácido Silva </p>
+
+                            
                         <div class="orador dto">
                             <img src="assets/img/oradores/Duarte-Saraiva.jpg"> 
                             <div class="descricao ">
@@ -69,51 +110,8 @@ if(isset($_SESSION["user_id"])){
                                 <p></p>
                             </div>
                             <img src="assets/img/oradores/Helder-Silva.jpg"> 
-                        </div>*/
-            <div id="sessoes">
-                <h1 class="titulo-roxo"  style="text-align:center">SESSÕES DE ABERTURA E ENCERRAMENTO</h1>
-                
-                <div class="atividade" id="abertura">
-                    <h2 class="titulo-roxo">Sessão de Abertura</h2>
-                    <div class = "texto-roxo">
-                        <p class="data-local">2ª feira, dia 4 das 09:00 às 09:30</p>
-                        <p>Local:</p>
-                        <p>Descrição:</p>
-                        <p>Oradores:
-                            Foto
-                            Descrição </p>
-                    </div>
-                </div>
+                        </div>
 
-                <div class="atividade" id="abertura">
-                    <h2 class="titulo-roxo">Sessão de Encerramento</h2>
-                    <div class = "texto-roxo">
-                        <p class="data-local">4ª feira, dia 6 das 15:30 às 16:00</p>
-                        <p>Centro de Congressos</p>
-                        <p>Para encerrar esta edição da JOB2BE contamos com a presença da Prof. Cláudia Lobato, Coordenadora da 
-                            Licenciatura em Engenharia Biomédica no IST, Gonçalo Ferreira, Presidente do Núcleo de Estudantes de 
-                            Engenharia Biomédica do IST, e Daniela Ferreira, que faz parte da Presidência desta edição da JOB2BE. 🦾</p>
-                        <p>Contamos contigo no dia 6 de março, às 15.30h, no Centro de Congressos!</p>
-                        <p>Oradores:
-                            Foto
-                            Descrição </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div id="palestra">
-                <h1 class="titulo-roxo"  style="text-align:center">PALESTRAS</h1>
-                
-                <div class="atividade" id="p-nova_era_saude">
-                    <h2 class="titulo-roxo">A Nova Era na Saúde | Telemonitorização & Telemedicina</h2>
-                    <div class = "texto-roxo">
-                        <p class="data-local">2ª feira, dia 4 das 10:00 às 11:30</p>
-                        <p>Local:</p>
-                        <p>Descrição:</p>
-                        <p>Oradores:
-                            Foto
-                            Descrição </p>
 
                         <div class="orador dto">
                             <img src="assets/img/oradores/Duarte-Saraiva.jpg"> 
@@ -181,10 +179,10 @@ Entrepreneurship Impact Award”, o “Career Award alumniIPS”, o “Best Indu
                     <div class = "texto-roxo">
                         <p class="data-local">2ª feira, dia 4 das 13:30 às 15:00</p>
                         <p>Local:</p>
-                        <p>Descrição:</p>
-                        <p>Oradores:
-                            Foto
-                            Descrição </p>
+                        <p>Queres saber mais sobre como a engenharia de tecidos está a revolucionar a medicina? </p>
+                        <p> Então não percas a palestra (R)evolucionando a engenharia de tecidos: do cultivo à impressão, onde poderás ouvir três especialistas na área. Estes vão falar sobre terapias inovadoras de bioengenharia de tecidos, explicar o uso de biomateriais e bioimpressão 3D para criar plataformas biomiméticas e explorar as aplicações da robótica na medicina, nomeadamente a impressão de tecidos, à reabilitação e à tele-medicina. Prepara-te para ficar impressionado! 🧬</p>
+                        <p style="font-weight: bold; padding-top: 5px;padding-bottom: 5px;">Oradores: Rodrigo Val d'Oleiros, Rúben Pereira e Rui Cortesão</p>
+                        <p style="font-weight: bold; padding-top: 5px;padding-bottom: 5px;">Moderador: Tiago Fernandes:</p>
                         <div class="orador dto">
                             <img src="assets/img/oradores/Rodrigo-Silva.jpeg"> 
                             <div class="descricao ">
@@ -347,14 +345,11 @@ Cláudia é atualmente coordenadora de duas organizações locais sem fins lucra
             <div id="workshop">
                 <h1 class="titulo-roxo"  style="text-align:center">WORKSHOPS</h1>
                 <div class="atividade" id="ws1">
-                    <h2 class="titulo-roxo"> Accenture</h2>
+                    <h2 class="titulo-roxo"> "Are you ready for Cloud?"</h2>
                     <div class = "texto-roxo">
                         <p class="data-local">2ª feira, dia 4 das 15:30 às 17:00</p>
                         <p class="data-local2">Sala: V1.15</p>
-                        <p>Accenture</p>
-                        <p>Oradores:
-                            Foto
-                            Descrição </p>
+                        <p>O 1° workshop desta edição da JOB2BE é oferecido pela Accenture, apresentado por Francisco Prata. Juntos, vamos responder à questão: “Are you ready for Cloud?”. Contamos contigo? ☁️💻</p>
                     </div>
                 </div>
                 <div class="atividade" id="ws2">
@@ -382,16 +377,11 @@ Não percas esta oportunidade! 🦾</p>
             <div id="pitch">
                 <h1 class="titulo-roxo"  style="text-align:center">PITCH</h1>
                 <div class="atividade">
-                    <h2 class="titulo-roxo"></h2>
+                    <h2 class="titulo-roxo">Descobre o mundo de possibilidades dentro da Glintt</h2>
                     <div class = "texto-roxo">
                         <p class="data-local">2ª feira, dia 4 das 11:30 às 12:00</p>
                         <p class="data-local2">Local:</p>
-                        <p>Pitch Glintt - apresentação da empresa Glintt Global</p>
-
-
-                        <p>Oradores: / Dado por: Joana Santos
-                            Foto
-                            Descrição </p>
+                        <p>Contamos com a presença da Joana Santos para nos dar uma overview dos desafios diários da Glintt Global. Ficamos à tua espera! 👀</p>
                     </div>
                 </div>
             </div>
