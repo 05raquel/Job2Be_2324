@@ -363,26 +363,26 @@ if(isset($_SESSION["user_id"])){
                         <?php endif; ?>
                     </div>
                     <div class="grid-item">
-                        <?php if ($user["w1"] == 1):?>
+                        <?php if ($user["ws1"] == 1):?>
                             <img src="assets/img/atividades/workshop-complete.png" alt="Image 1">
                         <?php endif; ?>
-                        <?php if ($user["w1"] == 0):?>
+                        <?php if ($user["ws1"] == 0):?>
                             <img src="assets/img/atividades/workshop.png" alt="Image 1">
                         <?php endif; ?>
                     </div>
                     <div class="grid-item">
-                        <?php if ($user["w2"] == 1):?>
+                        <?php if ($user["ws2"] == 1):?>
                             <img src="assets/img/atividades/workshop-complete.png" alt="Image 1">
                         <?php endif; ?>
-                        <?php if ($user["w2"] == 0):?>
+                        <?php if ($user["ws2"] == 0):?>
                             <img src="assets/img/atividades/workshop.png" alt="Image 1">
                         <?php endif; ?>
                     </div>
                     <div class="grid-item">
-                        <?php if ($user["w3"] == 1):?>
+                        <?php if ($user["ws3"] == 1):?>
                             <img src="assets/img/atividades/workshop-complete.png" alt="Image 1">
                         <?php endif; ?>
-                        <?php if ($user["w3"] == 0):?>
+                        <?php if ($user["ws3"] == 0):?>
                             <img src="assets/img/atividades/workshop.png" alt="Image 1">
                         <?php endif; ?>
                     </div>

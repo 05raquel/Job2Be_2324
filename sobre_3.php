@@ -26,14 +26,14 @@
             <div class="nova_era_saude" onclick="redirectToLink('./atividades.php#p-nova_era_saude')">> <a href="">
                 <div class="content"> 
                     <h4>A Nova Era na Saúde</h4>
-                    <p>Telemonitorização & Telemedicina</p>
+                    <p>Wearables & Telemonitorização</p>
                 </div>
             </a>
             </div>
             <div class="ia_saude" onclick="redirectToLink('./atividades.php#p-ia_saude')">> <a href="">
                 <div class="content"> 
                     <h4> Inteligência Artificial</h4>
-                    <p>Na Saúde</p>
+                    <p>No setor da Saúde</p>
                 </div>
             </a>
             </div>
