@@ -327,12 +327,7 @@ if(isset($_SESSION["user_id"])){
                 <div class="coord ritaNunes">
                     <div class="pessoa-coord">
                         <div class="rowIcons">
-                            <a href="mailto:" class="icon-link">
-                                <i class="fa-solid fa-square-envelope" style="color: #3F165B;"></i>
-                            </a>
-                            <a href="" class="icon-link">
-                                <i class="fa fa-linkedin-square" style="color: #3F165B;"></i>
-                            </a>
+                            
                         </div>
                         <h2 class="name">Rita Nunes</h2>
                     </div>

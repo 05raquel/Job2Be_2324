@@ -1,8 +1,34 @@
 <head>
     <link rel="stylesheet" href="assets/styles/style_geral.css">
     <link rel="stylesheet" href="assets/styles/style_index_2.css">
+    <style>
+            .fundo-roxo-escuro{
+                background-color: #3F165B;
+                height: 80px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.5), 0px -10px 10px -10px rgba(0, 0, 0, 0.5);
+                z-index: 1;
+            }
+            button{
+                background-color: white;
+                color: #3F165B;
+                font-family: 'League Spartan', sans-serif;
+                font-weight: 600;
+                font-size: 25px;
+                padding: 10px;
+                border: none;
+                border-radius: 10px;
+            }
+
+        </style>
 </head>
 <body>
+    <div class="fundo-roxo-escuro">
+        <a href="inscricao_workshops.php"><button>INSCRIÇÃO NOS WORKSHOPS</button></a>
+    </div>
     <div class="fundo-branco">
         <div class="dentro">
             <div class="imagem-roxa">

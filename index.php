@@ -19,23 +19,6 @@ if(isset($_SESSION["user_id"])){
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
         <meta charset="UTF-8">
         <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
-        <style>
-            .qrcodeReader{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            #reader{
-                width: 600px;
-            }
-            #result{
-                text-align: center;
-                font-size: 1.5rem;
-            }
-            #reader__scan_region img{
-                display: none;
-            }
-        </style>
     </head>
     <body>
         <?php include("includes/new_menu.php");?>
