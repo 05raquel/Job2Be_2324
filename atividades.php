@@ -22,13 +22,23 @@ if(isset($_SESSION["user_id"])){
         <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
         <style>
             .atividade{
-                margin-top: 15px;
+                margin-top: 50px;
                 margin-bottom: 15px;
+            }
+
+            .titulo-atividade{
+                font-size: 27px !important;
+                font-weight: 700;
             }
 
             .data-local{
                 font-weight: 600;
                 font-size: 18px;
+            }
+            .local{
+                font-weight: 600;
+                font-size: 16px;
+                margin-bottom: 5px;
             }
             .data-local2{
                 font-weight: 600;
@@ -62,7 +72,7 @@ if(isset($_SESSION["user_id"])){
         
         <div class="fundo-branco">
             <div id="sessoes">
-                <h1 class="titulo-roxo"  style="text-align:center">SESSÕES DE ABERTURA E ENCERRAMENTO</h1>
+                <h1 class="titulo-roxo"  style="text-align:center;">SESSÕES DE ABERTURA E ENCERRAMENTO</h1>
                 
                 <div class="atividade" id="abertura">
                     
@@ -70,10 +80,10 @@ if(isset($_SESSION["user_id"])){
                         
                         <img src="assets/img/posts/abertura.png"> 
                         <div class="descricao ">
-                            <h2 class="titulo-roxo">Sessão de Abertura</h2>
+                            <h2 class="titulo-roxo titulo-atividade">Sessão de Abertura</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">2ª feira, dia 4 das 09:00 às 09:30</p>
-                                <p>Centro de Congressos</p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Centro de Congressos</p>
                                 <p>Para começar esta semana em grande, na sessão de abertura da JOB2BE contamos com a presença do Prof. João Sanches, Coordenador do Mestrado em Engenharia Biomédica, o Prof. João Conde, Presidente do Departamento de Bioengenharia do IST, e ainda Renata Fernandes, Presidente da ANEEB. 🧬 </p> 
                                 <p> Contamos contigo no dia 4 de março, às 9h, no Centro de Congressos! Fica atento para saberes mais novidades!</p>
                             </div>
@@ -84,10 +94,10 @@ if(isset($_SESSION["user_id"])){
                 <div class="atividade" id="encerramento">
                     <div class="orador post">
                         <div class="descricao ">
-                            <h2 class="titulo-roxo">Sessão de Encerramento</h2>
+                            <h2 class="titulo-roxo titulo-atividade">Sessão de Encerramento</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">4ª feira, dia 6 das 15:30 às 16:00</p>
-                                <p>Centro de Congressos</p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Centro de Congressos</p>
                                 <p>Para encerrar esta edição da JOB2BE contamos com a presença da Prof. Cláudia Lobato, Coordenadora da 
                                     Licenciatura em Engenharia Biomédica no IST, Gonçalo Ferreira, Presidente do Núcleo de Estudantes de 
                                     Engenharia Biomédica do IST, e Daniela Ferreira, que faz parte da Presidência desta edição da JOB2BE. 🦾</p>
@@ -101,18 +111,18 @@ if(isset($_SESSION["user_id"])){
             </div>
 
             <div id="palestra">
-                <h1 class="titulo-roxo"  style="text-align:center">PALESTRAS</h1>
+                <h1 class="titulo-roxo"  style="text-align:center; margin-top: 70px;">PALESTRAS</h1>
                 <div class="atividade" id="p-nova_era_saude">
                     <div class="orador post">
                         <img src="assets/img/posts/nova-era.png"> 
                         <div class="descricao ">
-                            <h2 class="titulo-roxo">A Nova Era na Saúde | Wearables & Telemonitorização</h2>
+                            <h2 class="titulo-roxo titulo-atividade">A Nova Era na Saúde | Wearables & Telemonitorização</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">2ª feira, dia 4 das 10:00 às 11:30</p>
-                                <p>Local:</p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Centro de Congressos</p>
                                 <p>Sabias que a tecnologia pode ajudar-te a cuidar melhor da tua saúde, mesmo à distância? Na palestra A Nova Era na Saúde: Wearables e Telemonitorização, vais descobrir como os wearables - dispositivos que usas no corpo, como relógios ou pulseiras inteligentes - e a telemonitorização - o acompanhamento remoto dos teus sinais vitais - podem fazer a diferença na prevenção e no tratamento de várias doenças. Nesta palestra poderás ficar a conhecer mais sobre wearables e invisibles, nomeadamente o LAMPSY: um aparelho de deteção automática por vídeo de crises epilépticas, que preserva a privacidade dos pacientes por raíz. Junta-te a nós nesta palestra imperdível! 🦾💻</p>
-                                <p style="font-weight: bold; padding-top: 10px;">Oradores: Diogo Ramanho, Vicente Garção e Mariana Saraiva </p>
-                                <p style="font-weight: bold; padding-top: 10px;">Moderador: Hugo Plácido Silva </p>
+                                <p style="font-weight: bold; padding-top: 10px;">Oradores: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Diogo Ramanho, Vicente Garção e Mariana Saraiva</span> </p>
+                                <p style="font-weight: bold; padding-top: 10px;">Moderador: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Hugo Plácido Silva</span> </p>
                             </div>
                         </div>
                     </div>
@@ -172,7 +182,7 @@ Participações em: Relatório da OCDE sobre Telessaúde, Revisão de NOC da DGS
                         <div class="descricao ">
                             <h3 class="titulo-roxo">Hugo Plácido Silva</h3>
                             <div class = "texto-roxo">
-                            <p style="font-weight: bold; padding-top: 5px;padding-bottom: 5px;"> Investigador Sénior no Instituto de Telecomunicações. Professor Auxiliar Convidado no Departamento de Bioengenharia do Instituto Superior Técnico
+                            <p style="font-weight: bold;padding-top: 5px; padding-bottom: 5px;"> Investigador Sénior no Instituto de Telecomunicações. Professor Auxiliar Convidado no Departamento de Bioengenharia do Instituto Superior Técnico
 Co-fundador e Director de Investigação na PLUX - Wireless Biosignals, S.A.
 Membro do Pólo do IST do Laboratório Europeu para a Aprendizagem e Sistemas Inteligentes (LUMLIS/ELLIS)
 
@@ -193,14 +203,14 @@ Entrepreneurship Impact Award”, o “Career Award alumniIPS”, o “Best Indu
                 <div class="atividade" id="p-eng_tecidos">
                     <div class="orador post">
                         <div class="descricao ">
-                            <h2 class="titulo-roxo">R(e)volucionando a engenharia de tecidos | Do cultivo à impressão</h2>
+                            <h2 class="titulo-roxo titulo-atividade">R(e)volucionando a engenharia de tecidos | Do cultivo à impressão</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">2ª feira, dia 4 das 13:30 às 15:00</p>
-                                <p>Local:</p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Centro de Congressos</p>
                                 <p>Queres saber mais sobre como a engenharia de tecidos está a revolucionar a medicina? </p>
                                 <p> Então não percas a palestra (R)evolucionando a engenharia de tecidos: do cultivo à impressão, onde poderás ouvir três especialistas na área. Estes vão falar sobre terapias inovadoras de bioengenharia de tecidos, explicar o uso de biomateriais e bioimpressão 3D para criar plataformas biomiméticas e explorar as aplicações da robótica na medicina, nomeadamente a impressão de tecidos, à reabilitação e à tele-medicina. Prepara-te para ficar impressionado! 🧬</p>
-                                <p style="font-weight: bold; padding-top: 5px;padding-bottom: 5px;">Oradores: Rodrigo Val d'Oleiros, Rúben Pereira e Rui Cortesão</p>
-                                <p style="font-weight: bold; padding-top: 5px;padding-bottom: 5px;">Moderador: Tiago Fernandes:</p>
+                                <p style="font-weight: bold; padding-top: 5px;padding-bottom: 5px;">Oradores: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Rodrigo Val d'Oleiros, Rúben Pereira e Rui Cortesão</span></p>
+                                <p style="font-weight: bold; padding-top: 5px;padding-bottom: 5px;">Moderador: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Tiago Fernandes</span></p>
                             </div>
                         </div>
                         <img src="assets/img/posts/tecidos.png"> 
@@ -209,7 +219,7 @@ Entrepreneurship Impact Award”, o “Career Award alumniIPS”, o “Best Indu
                         <div class="orador dto">
                             <img src="assets/img/oradores/Rodrigo-Silva.jpeg"> 
                             <div class="descricao ">
-                                <h3 class="titulo-roxo">Rodrigo Val d’Oleiros</h3>
+                                <h3 class="titulo-roxo">Rodrigo Val d'Oleiros</h3>
                                 <div class = "texto-roxo">
                                 <p style="font-weight: bold;padding-top: 5px; padding-bottom: 5px;"></p>
                                 <p>Rodrigo Val d'Oleiros e Silva, médico dentista, especialidade em cirurgia oral. Candidato a Médico pela Escola de Medicina da Universidade do Minho. Estudante de Doutoramento no Programa Internacional BioTechHealth no ICBAS, Universidade do Porto. Investigador no Instituto de Investigação e Inovação em Saúde (i3S) em medicina regenerativa e bioengenharia de tecidos. Representante da Investigação e Inovação e Membro do Conselho Diretivo da Aliança Europeia de Universidades para a Saúde Global, pela Universidade do Porto. Pós-Graduação em Empreendedorismo e Tecnologia pela Universidade de Stanford e U.C. Berkeley. MBA pela Porto Business School. CEO & Fundador da Orgavalue, uma startup focada em terapias inovadoras de bioengenharia de tecidos. Prémio Jovem Empreendedor 2022 pela ANJE com representação do Ministro da Cultura e da Presidência de Portugal, e Forbes 30 Under 30 em Saúde.</p>
@@ -262,13 +272,13 @@ Em 2008, recebeu o prestigiado Prémio Malcolm Lilly, apresentado pela Sociedade
                     <div class="orador post">
                     <img src="assets/img/posts/mobilidade.png"> 
                         <div class="descricao ">
-                            <h2 class="titulo-roxo">Mobilidade Assistida  | Da inovação à acessibilidade</h2>
+                            <h2 class="titulo-roxo titulo-atividade">Mobilidade Assistida  | Da inovação à acessibilidade</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">3ª feira, dia 5 das 13:30 às 15:00</p>
-                                <p>Local:</p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Centro de Congressos</p>
                                 <p>Não percas a palestra sobre mobilidade assistida, onde três oradores vão partilhar as suas experiências e projetos inovadores na área da saúde e da reabilitação. Vais ficar a conhecer uma neuroprótese que usa inteligência artificial para restaurar o movimento dos membros inferiores, algumas aplicações da impressão 3D que melhoram a mobilidade e a inclusão, e o sistema Nuada que ajuda a recuperar a força e a destreza das mãos. Junta-te já a esta conversa inspiradora! 🦾</p>
-                                <p style="font-weight: bold; padding-top:10px; ">Oradores: Cláudia Quaresma, Filipe Quinaz e Simão Carvalho</p>
-                                <p style="font-weight: bold; padding-top: 10px;">Moderador: Nuno Matela</p>
+                                <p style="font-weight: bold; padding-top:10px; ">Oradores: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Cláudia Quaresma, Filipe Quinaz e Simão Carvalho</span></p>
+                                <p style="font-weight: bold; padding-top: 10px;">Moderador: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Nuno Matela</span></p>
                             </div>
                         </div>
                         
@@ -337,14 +347,14 @@ Em 2008, recebeu o prestigiado Prémio Malcolm Lilly, apresentado pela Sociedade
                 <div class="atividade" id="p-ia_saude">
                     <div class="orador post">
                         <div class="descricao ">
-                            <h2 class="titulo-roxo">Inteligência Artificial | No setor da Saúde</h2>
+                            <h2 class="titulo-roxo titulo-atividade">Inteligência Artificial | No setor da Saúde</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">4ª feira, dia 6 das 13:30 às 15:00</p>
-                                <p>Local:</p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Centro de Congressos</p>
                                 <p style="font-weight: bold;">Como é que a inteligência artificial está a mudar a forma como cuidamos da saúde? </p>
                                 <p>Se queres descobrir, não percas a oportunidade de assistir à palestra AI na saúde, onde vais ouvir falar de três temas incríveis. Vais conhecer o projeto do Digital Surgery LAB do Centro Clínico Champalimaud, que combina inteligência artificial e realidade aumentada para desenvolver novas soluções para o tratamento do cancro de mama. Vais explorar as potencialidades, os desafios e os progressos da inteligência artificial na saúde, com uma perspetiva abrangente do estado atual e das tendências futuras. E vais aprender como a inteligência artificial pode otimizar a qualidade de imagens de ultrassom, com um estudo comparativo entre filtros e modelos de AI, realizado no contexto de um projeto de doutoramento. Prepara-te para ficar maravilhado! 💻🧬</p>
-                                <p style="font-weight: bold; padding-top:10px; ">Oradores: Duarte Saraiva, Helder Silva e Tiago Marques</p>
-                                <p style="font-weight: bold; padding-top: 10px;">Moderador: Cláudia Antunes </p>
+                                <p style="font-weight: bold; padding-top:10px; ">Oradores: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Duarte Saraiva, Helder Silva e Tiago Marques</span></p>
+                                <p style="font-weight: bold; padding-top: 10px;">Moderador: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Cláudia Antunes</span></p>
                             </div>
                         </div>
                         <img src="assets/img/posts/ia.png"> 
@@ -402,15 +412,15 @@ Cláudia é atualmente coordenadora de duas organizações locais sem fins lucra
 
             </div>  
             <div id="workshop">
-                <h1 class="titulo-roxo"  style="text-align:center">WORKSHOPS</h1>
+                <h1 class="titulo-roxo"  style="text-align:center; margin-top: 70px;">WORKSHOPS</h1>
                 <div class="atividade" id="ws1">
                     <div class="orador post">
                     <img src="assets/img/posts/ws-accenture.png"> 
                         <div class="descricao ">                             
-                            <h2 class="titulo-roxo"> "Are you ready for Cloud?"</h2>
+                            <h2 class="titulo-roxo titulo-atividade"> "Are you ready for Cloud?"</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">2ª feira, dia 4 das 15:30 às 17:00</p>
-                                <p class="data-local2">Sala: V1.15</p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Sala: V1.15</p>
                                 <p>O 1° workshop desta edição da JOB2BE é oferecido pela Accenture, apresentado por Francisco Prata. Juntos, vamos responder à questão: “Are you ready for Cloud?”. Contamos contigo? ☁️💻</p>
                             </div>
                         </div>
@@ -421,10 +431,10 @@ Cláudia é atualmente coordenadora de duas organizações locais sem fins lucra
                     <div class="orador post">
                     
                         <div class="descricao "> 
-                            <h2 class="titulo-roxo">Técnica Cirúrgica - Volar-e</h2>
+                            <h2 class="titulo-roxo titulo-atividade">Técnica Cirúrgica - Volar-e</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">3ª feira, dia 5 das 15:30 às 17:00</p>
-                                <p class="data-local2">Sala: V1.05</p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Sala: V1.05</p>
                                 <!--<p>Local: v1.05</p>-->
                                 <p>Estás pronto para explorar o Workshop "Técnica Cirúrgica - Volar-e" da Astrolabe Medical?</p>
                                 <p>Descobre os segredos por trás deste inovador procedimento cirúrgico projetado para corrigir fraturas do rádio distal.
@@ -439,11 +449,11 @@ Cláudia é atualmente coordenadora de duas organizações locais sem fins lucra
                     <div class="orador post">
                         <img src="assets/img/posts/ws-medtronic.png"> 
                         <div class="descricao ">
-                            <h2 class="titulo-roxo">Inovação na Indústria dos Dispositivos Médicos</h2>
+                            <h2 class="titulo-roxo titulo-atividade">Inovação na Indústria dos Dispositivos Médicos</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">4ª feira, dia 6 das 9:00 às 10:30</p>
-                                <p class="data-local2">Sala: V1.07</p>
-                                <p>Não percas o Workshop ‘Medtronic, a Inovação na Indústria dos Dispositivos Médicos’! Descobre os bastidores desta empresa: desde a sua magnitude até às suas áreas de interesse e visão estratégica. Vais ter ainda a oportunidade de ouvir dois engenheiros biomédicos, o João Silva e a Catarina Sousa, que abordarão dois domínios de atuação da Medtronic: Neuromodulação e Cirurgia Laparoscópica. 🔬 </p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Sala: V1.07</p>
+                                <p>Não percas o Workshop 'Medtronic, a Inovação na Indústria dos Dispositivos Médicos'! Descobre os bastidores desta empresa: desde a sua magnitude até às suas áreas de interesse e visão estratégica. Vais ter ainda a oportunidade de ouvir dois engenheiros biomédicos, o João Silva e a Catarina Sousa, que abordarão dois domínios de atuação da Medtronic: Neuromodulação e Cirurgia Laparoscópica. 🔬 </p>
                             </div>
                         </div>
                     </div>
@@ -451,14 +461,14 @@ Cláudia é atualmente coordenadora de duas organizações locais sem fins lucra
             </div>
 
             <div id="pitch">
-                <h1 class="titulo-roxo"  style="text-align:center">PITCH</h1>
+                <h1 class="titulo-roxo"  style="text-align:center; margin-top: 70px;">PITCH</h1>
                 <div class="atividade">
                     <div class="orador post ">
                         <div class="descricao ">
-                            <h2 class="titulo-roxo">Descobre o mundo de possibilidades dentro da Glintt</h2>
+                            <h2 class="titulo-roxo titulo-atividade">Descobre o mundo de possibilidades dentro da Glintt</h2>
                             <div class = "texto-roxo">
                                 <p class="data-local">2ª feira, dia 4 das 11:30 às 12:00</p>
-                                <p class="data-local2">Local:</p>
+                                <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Centro de Congressos</p>
                                 <p>Contamos com a presença da Joana Santos para nos dar uma overview dos desafios diários da Glintt Global. Ficamos à tua espera! 👀</p>
                             </div>
                         </div>
@@ -469,13 +479,13 @@ Cláudia é atualmente coordenadora de duas organizações locais sem fins lucra
 
 
             <div id="feira-empresas">
-                <h1 class="titulo-roxo"  style="text-align:center">FEIRA DE EMPRESAS</h1>
+                <h1 class="titulo-roxo"  style="text-align:center; margin-top: 70px;">FEIRA DE EMPRESAS</h1>
                 <div class="atividade">
                     
                     <h2 class="titulo-roxo"></h2>
                     <div class = "texto-roxo">
                         <p class="data-local">3ª feira, dia 5 das 10:30 às 12:00</p>
-                        <p class="data-local2">Átrio de Civil</p>
+                        <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Átrio de Civil</p>
                         <p>Se estás interessado em estabelecer conexões para o teu futuro no setor de Engenharia Biomédica, não percas a JobFair! </p>
                         <p>Dia 5 de março, no átrio de civil, oferecemos-te esta sessão de Networking: uma oportunidade perfeita para imergires nas inovações e nos projetos atuais liderados por algumas das empresas mais influentes da área. Terás a chance de aprender diretamente com os profissionais da Accenture, Glintt Global, Astrolabe Medical e Teach for Portugal. Não deixes passar esta chance de expandir o teu conhecimento e rede de contatos no mundo da Engenharia Biomédica!💻</p>
                     </div>
@@ -489,19 +499,19 @@ Cláudia é atualmente coordenadora de duas organizações locais sem fins lucra
             
 
             <div id="alumni">
-                <h1 class="titulo-roxo"  style="text-align:center">ALUMNI SESSION</h1>
+                <h1 class="titulo-roxo"  style="text-align:center; margin-top: 70px;">ALUMNI SESSION</h1>
                 <div class="atividade">
                     <div class="orador post">
                         <img  src="assets/img/posts/alumni.png"> 
                         <div class="descricao ">
                                 <h2 class="titulo-roxo"></h2>
                                 <div class = "texto-roxo">
-                                    <p class="data-local"> Horário: 4ª feira, dia 6 das 11:00 às 12:00</p>
-                                    <p class="data-local2">Local:</p>
+                                    <p class="data-local">4ª feira, dia 6 das 11:00 às 12:00</p>
+                                    <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Centro de Congressos</p>
                                     <p>Pronto para descobrir o teu futuro após a universidade? </p>
                                     <p> No dia 6 de março, no centro de congressos, apresentamos-te uma sessão única onde ex-alunos de Engenharia Biomédica irão revelar os seus percursos profissionais e experiências enriquecedoras. Uma oportunidade imperdível para inspirares a tua carreira.
             Junta-te a nós!🦿</p>
-                                    <p style="font-weight: bold; padding-top: 10px;">Oradores</p>
+            <p style="font-weight: bold; padding-top:10px; ">Oradores: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Raquel Silva, Guilherme Freches, Afonso Ferreira, Madalena Antunes</span></p>
                                 </div>
                         </div>
                     </div>
@@ -531,35 +541,24 @@ Cláudia é atualmente coordenadora de duas organizações locais sem fins lucra
                             
                         </div>
                         <div class="orador dto">
-                            <img src="assets/img/oradores/Duarte-Saraiva.jpg"> 
                             <div class="descricao ">
                                 <h3 class="titulo-roxo">Afonso Ferreira</h3>
                                 <div class = "texto-roxo">
                                 <p style="font-weight: bold;padding-top: 5px; padding-bottom: 5px;"></p>
-                                <p></p>
+                                <p>Afonso Ferreira holds a Master's degree in Biomedical Engineering from Instituto Superior Técnico and is currently working as a researcher at INESC-MN. During his academic journey he has enjoyed working with physiological signals and wearable technology, and became a member of the ScientISST team. Currently, he is developing an innovative smart sock for nervous system monitoring, as part of the deep tech project “Sympathia Technologies”. His research encompasses a wide range of engineering topics, such as materials sciences, hardware, signal processing, and human factors.</p>
                                 <p></p>
                                 </div>
                             </div>
+                            <img src="assets/img/oradores/Afonso-Ferreira.jpg"> 
                         </div>
                         <div class="orador esq">
+                            <img src="assets/img/oradores/Madalena-Antunes.jpg">
                             <div class="descricao ">
-                                <h3 class="titulo-roxo"></h3>
+                                <h3 class="titulo-roxo">Madalena Antunes</h3>
                                 <div class = "texto-roxo">
                                 <p style="font-weight: bold; padding-top: 5px;padding-bottom: 5px;"></p>
-                                <p></p>
-                                <p></p>
-                                </div>
-                            </div>
-                            <img src="assets/img/oradores/Helder-Silva.jpg"> 
-                        </div>
-                        <div class="orador dto">
-                            <img src="assets/img/oradores/Duarte-Saraiva.jpg"> 
-                            <div class="descricao ">
-                                <h3 class="titulo-roxo">Ana Rita Fontes</h3>
-                                <div class = "texto-roxo">
-                                <p style="font-weight: bold;padding-top: 5px; padding-bottom: 5px;"></p>
-                                <p></p>
-                                <p></p>
+                                <p>Madalena João da Cruz Antunes completou o Mestrado Integrado em Engenharia Biomédica em 2021 pelo Instituto Superior Técnico. Tendo escolhido o perfil de mestrado de Biomecânica e Dispositivos Biomédicos, integrou o Departamento de Mecânica (IDMEC) no Instituto Superior Técnico no início de 2020 para desenvolver a sua tese de mestrado sobre a supervisão do Professor Carlos Quental e do Professor João Folgado, com a Doutora Clara de Campos Azevedo como co-orientadora. A sua tese de mestrado teve como título "Initial fascia lata graft positioning in the superior capsular reconstruction: computational analysis of shoulder stability" e foi realizada com o objetivo de auxiliar cirurgiões na tomada de decisões clínicas.</p>
+                                <p>É atualmente aluna de doutoramento em Engenharia Mecânica no IDMEC, no tópico da Biomecânica. O seu trabalho de investigação tem como foco a otimização de técnicas cirúrgicas empregues no tratamento de roturas irreparáveis da coifa dos rotadores, com o objetivo de melhorar os resultados funcionais, a médio e longo prazo, e promover a qualidade de vida dos pacientes. A metodologia desenvolvida na sua investigação tem como objetivo auxiliar estudos futuros e orientar os cirurgiões nos seus procedimentos.</p>
                                 </div>
                             </div>
                         </div>

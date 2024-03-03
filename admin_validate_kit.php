@@ -21,19 +21,20 @@ if(isset($_SESSION["user_id"])){
 
             if ($result->num_rows > 0) {
 
-                if($user_mail['cv'] == 0){
+                if(is_null($user_mail['kit'])){
                     // If the email exists in the database
-                    $updateSql = "UPDATE user SET cv = 1, points = points + 40 WHERE email = ?";
+                    $updateSql = "UPDATE user SET kit = NOW() WHERE email = ?";
                     $stmt = $mysqli->prepare($updateSql);
                     $stmt->bind_param("s", $email);
-                    $stmt->execute();
+                    $stmt->execute(); 
+                    
                     echo '<p class="mensagem">Sucesso :)</p>';
                 }
                 else{
-                    echo '<p class="mensagem">Esta pessoa já recebeu os pontos :P</p>';
+                    echo '<p class="mensagem">Este utilizador já levantou o seu kit: ' . $user_mail['kit'] . '</p>';
                 }
             } else {
-                // If the email does not exist in the database
+                // If the email does not exist in the database or the 'cv' is already set
                 echo '<p class="mensagem"> Este mail não foi encontrado na base de dados :(</p>';
             }
         }
@@ -111,7 +112,7 @@ if(isset($_SESSION["user_id"])){
 </head>
 <body>
     <div class="pagina">
-        <div class="titulo-roxo titulo">Confirmar Submissão de CV</div>
+        <div class="titulo-roxo titulo">Confirmar Entrega de Kit</div>
         <form class="kit-form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <label for="email" class="titulo-kit">Email do Participante:</label>
             <div class="input-field">
@@ -122,10 +123,10 @@ if(isset($_SESSION["user_id"])){
         
     </div>
 </body>
-
+        
 <?php
     } else {
-        echo "This page is not available for you :)";
+        echo '<p style="font-family: \'League Spartan\', sans-serif; color: #3F165B; text-align: center; margin: 20px;">This page is not available for you :)</p>';
     }
 }
 ?>
