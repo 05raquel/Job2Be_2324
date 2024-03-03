@@ -349,6 +349,7 @@ if(isset($_SESSION["user_id"])){
                                 <span class="tooltiptext">Depois de submeteres o teu CV, aguarda que validemos a submissão para ganhares os pontos que mereces!</span>
                             </div>
                         <?php endif; ?>
+                        <div class="linkedin">
                         <form method="post" action="assets/database/update_linkedin.php" class="linkedin-form">
                             <label for="linkedin" class="linkedin">LinkedIn:</label>
                             <div class="submit">
@@ -356,6 +357,10 @@ if(isset($_SESSION["user_id"])){
                                 <button type="submit" class="linkedin-button"><i class="fa-solid fa-square-check" style="color: #3F165B; font-size: 36px;"></i></button>
                             </div>
                         </form>
+                        <?php if ($user["linkedin"] !=  NULL):?>
+                            <p class="texto-roxo"> <i class="fa-solid fa-circle-check" style="color: #63E6BE; font-size: 15px; margin-left: 5px; margin-top: 5px; opacity: 0.5; margin-right: 10px; top: 50%;"></i> LinkedIn Associado: <?php echo $user["linkedin"] ?></p>
+                        <?php endif; ?>
+                        </div>
                     </div>
                     <div class="linha-titulo-pontos">
                         <div class="rank titulo-roxo" style="font-size: 30px;">POINTS CHECKLIST</div>
