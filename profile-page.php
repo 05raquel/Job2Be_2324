@@ -78,6 +78,7 @@ if(isset($_SESSION["user_id"])){
                 font-family: 'League Spartan', sans-serif;
                 font-size: 15px;
                 color: #3F165B;
+                width: 75%;
             }
             .linkedin-button{
                 background-color: #fff;
@@ -90,14 +91,16 @@ if(isset($_SESSION["user_id"])){
                 border: none;
                 padding: 5px;
                 color: white;
-                font-size: 20px;
+                font-size: 17px;
                 font-family: 'League Spartan', sans-serif;
                 font-weight: 600;
                 box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
                 line-height: 1.2em;
                 width: auto;
-                min-width: 250px; /* Set a minimum width for the button */
+                min-width: 200px; /* Set a minimum width for the button */
                 flex-grow: 1;
+                margin-top: 15px;
+                margin-bottom: 15px;
             }
             .botao-cv:hover{
                 transform: scale(1.01);
@@ -281,6 +284,9 @@ if(isset($_SESSION["user_id"])){
             .button-row{
                 display: flex;
             }
+            .confirmacao{
+                width: 100%;
+            }
             
         </style>
     </head>
@@ -358,7 +364,7 @@ if(isset($_SESSION["user_id"])){
                             </div>
                         </form>
                         <?php if ($user["linkedin"] !=  NULL):?>
-                            <p class="texto-roxo"> <i class="fa-solid fa-circle-check" style="color: #63E6BE; font-size: 15px; margin-left: 5px; margin-top: 5px; opacity: 0.5; margin-right: 10px; top: 50%;"></i> LinkedIn Associado: <?php echo $user["linkedin"] ?></p>
+                            <p class="texto-roxo confirmacao"> <i class="fa-solid fa-circle-check" style="color: #63E6BE; font-size: 15px; margin-left: 5px; margin-top: 5px; opacity: 0.5; margin-right: 10px; top: 50%;"></i> LinkedIn Associado: <?php echo $user["linkedin"] ?></p>
                         <?php endif; ?>
                         </div>
                     </div>

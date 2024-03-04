@@ -121,7 +121,7 @@ if(isset($_SESSION["user_id"])){
                                 <p class="data-local">2ª feira, dia 4 das 10:00 às 11:30</p>
                                 <p class="local"><i class="fa-solid fa-location-dot" style="color: #3f165b; margin-right: 10px; font-size: 16px;"></i>Centro de Congressos</p>
                                 <p>Sabias que a tecnologia pode ajudar-te a cuidar melhor da tua saúde, mesmo à distância? Na palestra A Nova Era na Saúde: Wearables e Telemonitorização, vais descobrir como os wearables - dispositivos que usas no corpo, como relógios ou pulseiras inteligentes - e a telemonitorização - o acompanhamento remoto dos teus sinais vitais - podem fazer a diferença na prevenção e no tratamento de várias doenças. Nesta palestra poderás ficar a conhecer mais sobre wearables e invisibles, nomeadamente o LAMPSY: um aparelho de deteção automática por vídeo de crises epilépticas, que preserva a privacidade dos pacientes por raíz. Junta-te a nós nesta palestra imperdível! 🦾💻</p>
-                                <p style="font-weight: bold; padding-top: 10px;">Oradores: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Diogo Ramanho, Vicente Garção e Mariana Saraiva</span> </p>
+                                <p style="font-weight: bold; padding-top: 10px;">Oradores: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Diogo Ramanho, Vicente Garção e Patrícia Loureiro</span> </p>
                                 <p style="font-weight: bold; padding-top: 10px;">Moderador: <span style="font-weight: 400; display: inline-block; padding-left: 5px;">Hugo Plácido Silva</span> </p>
                             </div>
                         </div>
@@ -155,7 +155,7 @@ if(isset($_SESSION["user_id"])){
                     <div class="orador dto">
                         
                         <div class="descricao ">
-                            <h3 class="titulo-roxo">Mariana Saraiva</h3>
+                            <h3 class="titulo-roxo">Patrícia Loureiro</h3>
                             <div class = "texto-roxo">
                             <p style="font-weight: bold;padding-top: 5px; padding-bottom: 5px;">Membro do Grupo de Trabalho permanente da CPLP em telemedicina e Telessaúde em representação da SPMS.
 Gestora do projecto ibérico RISCAR de Saúde infaltil e juvenil em representação da SPMS. Co-Investigadora no projeto DERM.AI com o Instituto Fraunhofer Portugal

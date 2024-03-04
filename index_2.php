@@ -16,11 +16,15 @@
                 background-color: white;
                 color: #3F165B;
                 font-family: 'League Spartan', sans-serif;
-                font-weight: 600;
+                font-weight: bolder;
                 font-size: 25px;
                 padding: 10px;
                 border: none;
                 border-radius: 10px;
+            }
+            button:hover{
+                cursor: pointer;
+                scale: 1.01;
             }
 
         </style>
